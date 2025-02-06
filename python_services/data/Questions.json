@@ -1,0 +1,44 @@
+{
+    "questions": [
+      {
+        "statement": "What is the capital of France?",
+        "category": "Geography",
+        "correctAnswer": "Paris",
+        "answer2": "Berlin",
+        "answer3": "Madrid",
+        "answer4": "Rome"
+      },
+      {
+        "statement": "Which planet is known as the Red Planet?",
+        "category": "Science",
+        "correctAnswer": "Mars",
+        "answer2": "Venus",
+        "answer3": "Jupiter",
+        "answer4": "Saturn"
+      },
+      {
+        "statement": "Who wrote 'To Kill a Mockingbird'?",
+        "category": "Literature",
+        "correctAnswer": "Harper Lee",
+        "answer2": "J.K. Rowling",
+        "answer3": "Ernest Hemingway",
+        "answer4": "Mark Twain"
+      },
+      {
+        "statement": "What is the smallest unit of life?",
+        "category": "Biology",
+        "correctAnswer": "Cell",
+        "answer2": "Atom",
+        "answer3": "Molecule",
+        "answer4": "Organ"
+      },
+      {
+        "statement": "What year did the Titanic sink?",
+        "category": "History",
+        "correctAnswer": "1912",
+        "answer2": "1905",
+        "answer3": "1923",
+        "answer4": "1898"
+      }
+    ]
+  }
