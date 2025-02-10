@@ -4,7 +4,7 @@ Author: Anderson David Arenas Gutierrez <adarenasg@udistrital.edu.co>
 """
 
 from typing import List
-from repositories.question import QuestionRepository, QuestionDAO
+from ..repositories.question import QuestionRepository, QuestionDAO
 
 
 class QuestionServices:

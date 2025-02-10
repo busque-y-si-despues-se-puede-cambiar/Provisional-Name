@@ -5,7 +5,7 @@ Author: Anderson David Arenas Gutierrez <adarenasg@udistrital.edu.co>"""
 import json
 from typing import List
 from pydantic import BaseModel
-from environment_variables import EnvironmentVariables
+from backendpython.environment_variables import EnvironmentVariables
 
 
 class QuestionDAO(BaseModel):

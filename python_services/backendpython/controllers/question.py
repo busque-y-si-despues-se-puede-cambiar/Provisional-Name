@@ -5,8 +5,8 @@ Author: Anderson David Arenas Gutierrez <adarenasg@udistrital.edu.co>
 
 from typing import List
 from fastapi import APIRouter, HTTPException
-from services.question import QuestionServices
-from repositories.question import QuestionDAO
+from ..services.question import QuestionServices
+from ..repositories.question import QuestionDAO
 
 router = APIRouter()
 

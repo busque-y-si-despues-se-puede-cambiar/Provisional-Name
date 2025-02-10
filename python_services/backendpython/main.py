@@ -5,7 +5,7 @@ Author: Anderson David Arenas Gutierrez <adarenasg@udistrital.edu.co>
 
 from fastapi import FastAPI
 
-from controllers import question_router
+from backendpython.controllers.question import router as question_router
 
 app = FastAPI(
     title="Machines and Videogames",
