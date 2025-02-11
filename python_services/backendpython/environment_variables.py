@@ -15,3 +15,5 @@ class EnvironmentVariables:
     def __init__(self):
         """This method is used to initialize the class."""
         self.path_questions_data = os.getenv("PATH_QUESTIONS_DATA")
+        self.path_users_data = os.getenv("PATH_USERS_DATA")
+
