@@ -21,7 +21,7 @@ import sm.project.trivia_game.data_objects.UserDAO;
 import sm.project.trivia_game.services.UserServices;
 
 @RestController
-@RequestMapping("v1/user")
+@RequestMapping("/v1/user")
 public class UserController {
     
     @Autowired
