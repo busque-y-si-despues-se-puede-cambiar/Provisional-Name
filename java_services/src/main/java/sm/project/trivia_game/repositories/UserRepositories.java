@@ -37,7 +37,8 @@ public class UserRepositories {
         String path = "C:\\Users\\admin\\Documents\\Nueva_carpeta\\Provisional-Name\\shared_data\\Users.json";
         try (InputStream is = new FileInputStream(path)) {
             String content = new String(is.readAllBytes(), StandardCharsets.UTF_8);
-            JSONArray jsonArray = new JSONArray(content);
+            JSONObject jsonObjectTemp = new JSONObject(content);
+            JSONArray jsonArray = jsonObjectTemp.getJSONArray("users");
             for (int i = 0; i < jsonArray.length(); i++){
                 JSONObject jsonObject = jsonArray.getJSONObject(i);
                 UserDAO user = new UserDAO(

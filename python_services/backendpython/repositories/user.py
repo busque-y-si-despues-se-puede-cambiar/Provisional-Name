@@ -44,6 +44,7 @@ class UserRepository:
         users = []
         for user in self.data:
             user_temp = UserDAO(
+                id=user["id"],
                 username=user["username"],
                 password=user["password"],
                 score=user["score"],
