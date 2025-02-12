@@ -1,94 +1,94 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "username": "user1",
-      "password": "password1",
-      "score": 140
-    },
-    {
-      "id": 2,
-      "username": "user2",
-      "password": "password2",
-      "score": 18
-    },
-    {
-      "id": 3,
-      "username": "user3",
-      "password": "password3",
-      "score": 15
-    },
-    {
-      "id": 4,
-      "username": "user4",
-      "password": "password4",
-      "score": 98
-    },
-    {
-      "id": 5,
-      "username": "user5",
-      "password": "password5",
-      "score": 234
-    },
-    {
-      "id": 6,
-      "username": "user6",
-      "password": "password6",
-      "score": 1000
-    },
-    {
-      "id": 7,
-      "username": "user7",
-      "password": "password7",
-      "score": 64
-    },
-    {
-      "id": 8,
-      "username": "user8",
-      "password": "password8",
-      "score": 5
-    },
-    {
-      "id": 9,
-      "username": "user9",
-      "password": "password9",
-      "score": 92
-    },
-    {
-      "id": 10,
-      "username": "user10",
-      "password": "password10",
-      "score": 310
-    },
-    {
-      "id": 11,
-      "username": "user11",
-      "password": "password11",
-      "score": 23
-    },
-    {
-      "id": 12,
-      "username": "user12",
-      "password": "password12",
-      "score": 1500
-    },
-    {
-      "id": 13,
-      "username": "user13",
-      "password": "password13",
-      "score": 1
-    },
-    {
-      "id": 14,
-      "username": "user14",
-      "password": "password14",
-      "score": 14
-    },
-    {
-      "id": 15,
-      "username": "user15",
-      "password": "password15",
-      "score": 323
-    }
-  ]
+    "users": [
+        {
+            "username": "user1",
+            "password": "password1",
+            "score": 140,
+            "online": false
+        },
+        {
+            "username": "user2",
+            "password": "password2",
+            "score": 18,
+            "online": false
+        },
+        {
+            "username": "user3",
+            "password": "password3",
+            "score": 15,
+            "online": false
+        },
+        {
+            "username": "user4",
+            "password": "password4",
+            "score": 108,
+            "online": true
+        },
+        {
+            "username": "user5",
+            "password": "password5",
+            "score": 234,
+            "online": false
+        },
+        {
+            "username": "user6",
+            "password": "password6",
+            "score": 1000,
+            "online": false
+        },
+        {
+            "username": "user7",
+            "password": "password7",
+            "score": 64,
+            "online": false
+        },
+        {
+            "username": "user8",
+            "password": "password8",
+            "score": 5,
+            "online": false
+        },
+        {
+            "username": "user9",
+            "password": "password9",
+            "score": 92,
+            "online": false
+        },
+        {
+            "username": "user10",
+            "password": "password10",
+            "score": 310,
+            "online": false
+        },
+        {
+            "username": "user11",
+            "password": "password11",
+            "score": 23,
+            "online": false
+        },
+        {
+            "username": "user12",
+            "password": "password12",
+            "score": 1500,
+            "online": false
+        },
+        {
+            "username": "user13",
+            "password": "password13",
+            "score": 1,
+            "online": false
+        },
+        {
+            "username": "user14",
+            "password": "password14",
+            "score": 14,
+            "online": false
+        },
+        {
+            "username": "user15",
+            "password": "password15",
+            "score": 323,
+            "online": false
+        }
+    ]
 }
