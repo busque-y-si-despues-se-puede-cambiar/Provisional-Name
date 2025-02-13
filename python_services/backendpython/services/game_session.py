@@ -6,9 +6,11 @@ Authors:
 Tito Alejandro Burbano Plazas <taburbanop@udistrital.edu.co>
 Anderson David Arenas Gutierrez <adarenasg@udistrital.edu.co>
 """
+
 import random
 from ..repositories.user import UserRepository
 from ..repositories.question import QuestionRepository
+
 
 class GameSession:
     """
@@ -65,16 +67,17 @@ class GameSession:
 
         while self.lives > 0:
             question = random.choice(self.question_repo.get_questions())
+
+            # Mezclar respuestas
+            options = [question.correctAnswer, question.answer2, question.answer3, question.answer4]
+            random.shuffle(options)
+
             print(f"\n{question.statement}")
-            print(f"1. {question.correctAnswer}")
-            print(f"2. {question.answer2}")
-            print(f"3. {question.answer3}")
-            print(f"4. {question.answer4}")
+            for i, option in enumerate(options, 1):
+                print(f"{i}. {option}")
 
             try:
                 answer = int(input("Choose your answer (1-4): "))
-                options = [question.correctAnswer, question.answer2,
-                           question.answer3, question.answer4]
                 if options[answer - 1] == question.correctAnswer:
                     self.score += 10
                     print("Correct! +10 points.")
@@ -89,7 +92,7 @@ class GameSession:
 
     def _update_user_score(self):
         """
-        Updates the user's score in the repository after the game ends. 
+          print("Score updated successfully!")      Updates the user's score in the repository after the game ends. 
         The score is added to the user's existing score.
 
         This method ensures that the score is saved in the repository 
@@ -99,5 +102,5 @@ class GameSession:
         for user in users:
             if user.username == self.user.username:
                 user.score += self.score
+                user.online = False
         self.user_repo.save_users(users)
-        print("Score updated successfully!")
