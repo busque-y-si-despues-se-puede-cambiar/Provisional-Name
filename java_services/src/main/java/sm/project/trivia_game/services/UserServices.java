@@ -68,4 +68,19 @@ public class UserServices {
     public Optional<UserDAO> logout() {
         return userRepositories.logout();
     }
+
+    /*
+     * This method creates a new admin user.
+     * 
+     * Only an online admin user can create another admin.
+     * 
+     * @param authData the authentication data for the new admin user.
+     * 
+     * @return the created admin user.
+     */
+    public Optional<UserDAO> createAdmin(AuthDTO authData) {
+        if (authData.getUsername() == null || authData.getPassword() == null)
+            return Optional.empty();
+        return userRepositories.createAdmin(authData);
+    }
 }

@@ -153,10 +153,18 @@
     },
     {
         "score": 0,
-        "online": true,
+        "online": false,
         "admin": true,
         "password": "password20",
         "id": 20,
         "username": "admin1"
+    },
+    {
+        "score": 0,
+        "online": false,
+        "admin": true,
+        "password": "lolo",
+        "id": 21,
+        "username": "admin2"
     }
 ]}

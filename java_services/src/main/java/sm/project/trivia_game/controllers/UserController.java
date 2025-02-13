@@ -72,4 +72,18 @@ public class UserController {
     public Optional<UserDAO> logout() {
         return userServices.logout();
     }
+
+    /*
+     * This method creates a new admin user.
+     * 
+     * Only an online admin user can create another admin.
+     * 
+     * @param authData the authentication data for the new admin user.
+     * 
+     * @return the created admin user.
+     */
+    @PostMapping("/createAdmin")
+    public Optional<UserDAO> createAdmin(@RequestBody AuthDTO authData) {
+        return userServices.createAdmin(authData);
+    }
 }

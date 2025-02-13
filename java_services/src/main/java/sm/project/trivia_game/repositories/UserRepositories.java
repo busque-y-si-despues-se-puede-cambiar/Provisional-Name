@@ -24,6 +24,7 @@ import org.springframework.stereotype.Repository;
 import jakarta.annotation.PostConstruct;
 import sm.project.trivia_game.data_objects.AuthDTO;
 import sm.project.trivia_game.data_objects.UserDAO;
+import sm.project.trivia_game.factories.UserFactory;
 
 @Repository
 public class UserRepositories {
@@ -44,15 +45,13 @@ public class UserRepositories {
             JSONArray jsonArray = jsonObjectTemp.getJSONArray("users");
             for (int i = 0; i < jsonArray.length(); i++){
                 JSONObject jsonObject = jsonArray.getJSONObject(i);
-                UserDAO user = new UserDAO(
+                UserDAO user = UserFactory.createUser(
                     jsonObject.getInt("id"),
                     jsonObject.getString("username"),
                     jsonObject.getString("password"),
-                    jsonObject.getInt("score")
+                    jsonObject.getInt("score"),
+                    jsonObject.optBoolean("admin", false) // Si no existe, por defecto es false
                 );
-                if (jsonObject.has("admin")) {
-                    user.admin = jsonObject.getBoolean("admin");
-                }
                 users.add(user);
             }
         } catch (FileNotFoundException fnfEx) {
@@ -145,15 +144,47 @@ public class UserRepositories {
         }
         lastId++;
 
-        UserDAO newUser = new UserDAO(
+        UserDAO newUser = UserFactory.createUser(
             lastId, 
             authData.getUsername(), 
-            authData.getPassword(),
-            0
-            );
+            authData.getPassword(), 
+            0, 
+            false);
         this.users.add(newUser);
         saveData();
         return Optional.of(newUser);
+    }
+
+    /**
+     * Creates a new administrator user if an existing administrator is online.
+     *
+     * @param authData The authentication data containing the username and password for the new admin user.
+     * @return An Optional containing the newly created UserDAO if successful, or an empty Optional if no online administrator is found.
+     */
+    public Optional<UserDAO> createAdmin(AuthDTO authData) {
+        Optional<UserDAO> adminUser = users.stream().filter(user -> user.online && user.admin).findFirst();
+        if (adminUser.isEmpty()) {
+            System.out.println("❌ Only an administrator can create other administrators.");
+            return Optional.empty();
+        }
+    
+        int lastId = 0;
+        for (int i = 0; i < users.size(); i++) {
+            if (users.get(i).id > lastId) {
+                lastId = users.get(i).id;
+            }
+        }
+        lastId++;
+    
+        UserDAO newAdmin = UserFactory.createUser(
+            lastId, 
+            authData.getUsername(), 
+            authData.getPassword(), 
+            0, 
+            true);
+        users.add(newAdmin);
+        saveData();
+        return Optional.of(newAdmin);
     }
 
     /*
