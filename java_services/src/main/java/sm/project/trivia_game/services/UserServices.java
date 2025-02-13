@@ -56,7 +56,7 @@ public class UserServices {
      */
     public Optional<UserDAO> create(AuthDTO authData) {
         if (authData.getUsername() == null || authData.getPassword() == null)
-            return null;
+            return Optional.empty();
         return userRepositories.create(authData);
     }
 
