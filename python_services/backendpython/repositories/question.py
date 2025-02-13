@@ -11,7 +11,6 @@ import json
 from typing import List
 from pydantic import BaseModel
 from backendpython.environment_variables import EnvironmentVariables
-# Se asume que UserRepository se encuentra en el paquete correspondiente
 from ..repositories.user import UserRepository
 
 class QuestionDAO(BaseModel):
@@ -40,7 +39,8 @@ class QuestionRepository:
 
     def __init__(self, user_repo: UserRepository):
         """
-        Initialize the repository, load questions from file, and store a reference to the user repository.
+        Initialize the repository, load questions from file, 
+        and store a reference to the user repository.
         
         Args:
             user_repo (UserRepository): Repository to access user data.
@@ -58,7 +58,7 @@ class QuestionRepository:
             with open(self.path_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
             self.data = data.get("questions", [])
-        except Exception as e:
+        except FileNotFoundError as e:
             print(f"ERROR loading questions: {e}")
             self.data = []
 
@@ -98,5 +98,5 @@ class QuestionRepository:
         try:
             with open(self.path_file, "w", encoding="utf-8") as f:
                 json.dump({"questions": self.data}, f, indent=4)
-        except Exception as e:
+        except FileNotFoundError as e:
             print(f"ERROR saving questions: {e}")

@@ -46,7 +46,7 @@ class UserRepository:
             with open(self.path_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
             self.data = [UserDAO(**user) for user in data.get("users", [])]
-        except Exception as e:
+        except FileNotFoundError as e:
             print(f"ERROR loading users: {e}")
             self.data = []
 
@@ -63,7 +63,7 @@ class UserRepository:
         try:
             with open(self.path_file, "w", encoding="utf-8") as f:
                 json.dump({"users": [user.model_dump() for user in users]}, f, indent=4)
-        except Exception as e:
+        except FileNotFoundError as e:
             print(f"ERROR saving users: {e}")
 
     def get_users_sorted_by_score(self) -> List[dict]:

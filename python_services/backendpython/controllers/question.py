@@ -7,8 +7,8 @@ Anderson David Arenas Gutierrez <adarenasg@udistrital.edu.co>
 Tito Alejandro Burbano Plazas <taburbanop@udistrital.edu.co>
 """
 
-from fastapi import APIRouter, HTTPException
 from typing import List
+from fastapi import APIRouter, HTTPException
 from ..services.question import QuestionServices
 from ..repositories.question import QuestionDAO
 from ..repositories.user import UserRepository

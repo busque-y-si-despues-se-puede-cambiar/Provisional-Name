@@ -35,5 +35,5 @@ def start_game(username: str):
         game = GameSession(username)
         game.play()
         return {"message": "Game session finished", "final_score": game.score}
-    except ValueError as e:
-        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e)) from e

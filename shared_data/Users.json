@@ -25,7 +25,7 @@
     },
     {
         "score": 108,
-        "online": false,
+        "online": true,
         "admin": false,
         "password": "password4",
         "id": 4,

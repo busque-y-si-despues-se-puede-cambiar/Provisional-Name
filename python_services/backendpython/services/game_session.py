@@ -11,7 +11,7 @@ import random
 from ..repositories.user import UserRepository
 from ..repositories.question import QuestionRepository
 
-
+# pylint: disable=too-few-public-methods
 class GameSession:
     """
     This class manages the game session for an online user. It handles the core logic of the game.
@@ -92,7 +92,7 @@ class GameSession:
 
     def _update_user_score(self):
         """
-          print("Score updated successfully!")      Updates the user's score in the repository after the game ends. 
+        Updates the user's score in the repository after the game ends. 
         The score is added to the user's existing score.
 
         This method ensures that the score is saved in the repository 
