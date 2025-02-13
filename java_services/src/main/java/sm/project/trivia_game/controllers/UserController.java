@@ -63,4 +63,13 @@ public class UserController {
         return userServices.create(authData);
     }
 
+    /*
+    * This method logs out the currently online user.
+    * 
+    * @return the user that was logged out, or empty if no user was online.
+    */
+    @PostMapping("/logout")
+    public Optional<UserDAO> logout() {
+        return userServices.logout();
+    }
 }

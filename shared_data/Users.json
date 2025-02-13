@@ -2,6 +2,7 @@
     {
         "score": 140,
         "online": false,
+        "admin": false,
         "password": "password1",
         "id": 1,
         "username": "user1"
@@ -9,6 +10,7 @@
     {
         "score": 18,
         "online": false,
+        "admin": false,
         "password": "password2",
         "id": 2,
         "username": "user2"
@@ -16,6 +18,7 @@
     {
         "score": 15,
         "online": false,
+        "admin": false,
         "password": "password3",
         "id": 3,
         "username": "user3"
@@ -23,6 +26,7 @@
     {
         "score": 108,
         "online": false,
+        "admin": false,
         "password": "password4",
         "id": 4,
         "username": "user4"
@@ -30,6 +34,7 @@
     {
         "score": 234,
         "online": false,
+        "admin": false,
         "password": "password5",
         "id": 5,
         "username": "user5"
@@ -37,6 +42,7 @@
     {
         "score": 1000,
         "online": false,
+        "admin": false,
         "password": "password6",
         "id": 6,
         "username": "user6"
@@ -44,6 +50,7 @@
     {
         "score": 64,
         "online": false,
+        "admin": false,
         "password": "password7",
         "id": 7,
         "username": "user7"
@@ -51,6 +58,7 @@
     {
         "score": 5,
         "online": false,
+        "admin": false,
         "password": "password8",
         "id": 8,
         "username": "user8"
@@ -58,13 +66,15 @@
     {
         "score": 92,
         "online": false,
+        "admin": false,
         "password": "password9",
         "id": 9,
         "username": "user9"
     },
     {
-        "score": 310,
-        "online": true,
+        "score": 350,
+        "online": false,
+        "admin": false,
         "password": "password10",
         "id": 10,
         "username": "user10"
@@ -72,6 +82,7 @@
     {
         "score": 23,
         "online": false,
+        "admin": false,
         "password": "password11",
         "id": 11,
         "username": "user11"
@@ -79,6 +90,7 @@
     {
         "score": 1500,
         "online": false,
+        "admin": false,
         "password": "password12",
         "id": 12,
         "username": "user12"
@@ -86,6 +98,7 @@
     {
         "score": 1,
         "online": false,
+        "admin": false,
         "password": "password13",
         "id": 13,
         "username": "user13"
@@ -93,6 +106,7 @@
     {
         "score": 14,
         "online": false,
+        "admin": false,
         "password": "password14",
         "id": 14,
         "username": "user14"
@@ -100,6 +114,7 @@
     {
         "score": 323,
         "online": false,
+        "admin": false,
         "password": "password15",
         "id": 15,
         "username": "user15"
@@ -107,6 +122,7 @@
     {
         "score": 0,
         "online": false,
+        "admin": false,
         "password": "password16",
         "id": 16,
         "username": "user16"
@@ -114,6 +130,7 @@
     {
         "score": 0,
         "online": false,
+        "admin": false,
         "password": "password17",
         "id": 17,
         "username": "user17"
@@ -121,6 +138,7 @@
     {
         "score": 0,
         "online": false,
+        "admin": false,
         "password": "juanito",
         "id": 18,
         "username": "Juan"
@@ -128,8 +146,17 @@
     {
         "score": 0,
         "online": false,
+        "admin": false,
         "password": "pepas",
         "id": 19,
         "username": "Pepe"
+    },
+    {
+        "score": 0,
+        "online": true,
+        "admin": true,
+        "password": "password20",
+        "id": 20,
+        "username": "admin1"
     }
 ]}

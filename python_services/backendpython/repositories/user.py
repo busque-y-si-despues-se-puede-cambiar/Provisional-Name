@@ -22,6 +22,7 @@ class UserDAO(BaseModel):
     password: str
     score: int
     online: bool
+    admin: bool
 
 
 class UserRepository:

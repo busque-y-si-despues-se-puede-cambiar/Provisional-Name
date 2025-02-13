@@ -11,11 +11,20 @@ import json
 from typing import List
 from pydantic import BaseModel
 from backendpython.environment_variables import EnvironmentVariables
-
+# Se asume que UserRepository se encuentra en el paquete correspondiente
+from ..repositories.user import UserRepository
 
 class QuestionDAO(BaseModel):
     """
-    This class is used to define the data structure related to questions.
+    Data model representing a question.
+    
+    Attributes:
+        statement (str): The text of the question.
+        category (str): The category of the question.
+        correctAnswer (str): The correct answer to the question.
+        answer2 (str): The second option.
+        answer3 (str): The third option.
+        answer4 (str): The fourth option.
     """
     statement: str
     category: str
@@ -24,51 +33,70 @@ class QuestionDAO(BaseModel):
     answer3: str
     answer4: str
 
-
 class QuestionRepository:
     """
-    This class represents the behavior of a repository to handle questions data.
+    Repository class to manage question data storage and retrieval.
     """
 
-    def __init__(self):
+    def __init__(self, user_repo: UserRepository):
         """
-        Initialize the class and load questions data from file.
+        Initialize the repository, load questions from file, and store a reference to the user repository.
+        
+        Args:
+            user_repo (UserRepository): Repository to access user data.
         """
         env = EnvironmentVariables()
-        path_file = env.path_questions_data
-        self._load_data(path_file)
+        self.path_file = env.path_questions_data
+        self._load_data()
+        self.user_repo = user_repo
 
-    def _load_data(self, path_file: str):
+    def _load_data(self):
         """
-        Load questions from JSON file.
+        Load questions from the JSON file.
         """
         try:
-            with open(path_file, "r", encoding="utf-8") as f:
+            with open(self.path_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
-
-            if "questions" in data and isinstance(data["questions"], list):
-                self.data = data["questions"]
-            else:
-                print("ERROR: Invalid JSON format, 'questions' key missing or incorrect.")
-                self.data = []
-
+            self.data = data.get("questions", [])
         except Exception as e:
             print(f"ERROR loading questions: {e}")
             self.data = []
 
     def get_questions(self) -> List[QuestionDAO]:
         """
-        This method is used to get all questions.
+        Retrieve all questions from the repository.
+
+        Returns:
+            List[QuestionDAO]: A list of all question objects.
         """
-        questions = []
-        for question in self.data:
-            question_temp = QuestionDAO(
-                statement=question["statement"],
-                category=question["category"],
-                correctAnswer=question["correctAnswer"],
-                answer2=question["answer2"],
-                answer3=question["answer3"],
-                answer4=question["answer4"],
-            )
-            questions.append(question_temp)
-        return questions
+        return [QuestionDAO(**q) for q in self.data]
+
+    def add_question(self, question: QuestionDAO) -> dict:
+        """
+        Add a new question to the repository if the online user is an admin.
+
+        Args:
+            question (QuestionDAO): The question data to be added.
+
+        Returns:
+            dict: A dictionary containing a success message or an error message.
+        """
+        online_user = next((user for user in self.user_repo.get_users() if user.online), None)
+        if not online_user:
+            return {"error": "No user is online."}
+        if not online_user.admin:
+            return {"error": "Online user is not an admin."}
+
+        self.data.append(question.model_dump())
+        self._save_data()
+        return {"success": "Question added successfully."}
+
+    def _save_data(self):
+        """
+        Save the updated list of questions back to the JSON file.
+        """
+        try:
+            with open(self.path_file, "w", encoding="utf-8") as f:
+                json.dump({"questions": self.data}, f, indent=4)
+        except Exception as e:
+            print(f"ERROR saving questions: {e}")

@@ -7,73 +7,79 @@ Anderson David Arenas Gutierrez <adarenasg@udistrital.edu.co>
 Tito Alejandro Burbano Plazas <taburbanop@udistrital.edu.co>
 """
 
-from typing import List
 from fastapi import APIRouter, HTTPException
+from typing import List
 from ..services.question import QuestionServices
 from ..repositories.question import QuestionDAO
+from ..repositories.user import UserRepository
 
 router = APIRouter()
 
-services = QuestionServices()
+# Se crea una instancia de UserRepository para pasarla a los servicios
+user_repo = UserRepository()
+services = QuestionServices(user_repo)
 
-
-@router.get("/questions/all")
+@router.get("/questions/all", response_model=List[QuestionDAO])
 def get_all() -> List[QuestionDAO]:
     """
-    This method is used to obtain all questions.
-
-    This route requires no input parameters and returns a list of 'QuestionDAO' objects, 
-    which represent all the questions stored in the database.
+    Retrieve all questions stored in the database.
 
     Returns:
-        List[QuestionDAO]: List of 'QuestionDAO' objects that contain 
-        the information of all questions.
+        List[QuestionDAO]: A list of all questions.
     """
     return services.get_all()
 
-
-@router.get("/questions/by_keyword/{keyword}")
-def get_by_name(keyword: str) -> List[QuestionDAO]:
+@router.get("/questions/by_keyword/{keyword}", response_model=List[QuestionDAO])
+def get_by_keyword(keyword: str) -> List[QuestionDAO]:
     """
-    This method is used to get questions based on a keyword.
-
-    If the provided keyword is empty, an HTTP exception with code 400 is raised. 
-    If the keyword is valid, a list of 'QuestionDAO' objects containing the questions is returned. 
-    related to the given keyword.
+    Retrieve questions that match the given keyword in their statement.
 
     Args:
-        keyword (str): The keyword by which to filter the questions.
+        keyword (str): The keyword to search for.
 
     Returns:
-        List[QuestionDAO]: List of 'QuestionDAO' objects containing the questions 
-        filtered by the given keyword.
-    
+        List[QuestionDAO]: A list of matching questions.
+
     Raises:
-        HTTPException: If the keyword is empty, an HTTP 400 exception is thrown.
+        HTTPException: If the keyword is empty.
     """
-    if keyword == "":
+    if not keyword:
         raise HTTPException(status_code=400, detail="The keyword cannot be empty.")
     return services.get_by_keyword(keyword)
 
-@router.get("/questions/by_category/{category}")
+@router.get("/questions/by_category/{category}", response_model=List[QuestionDAO])
 def get_by_category(category: str) -> List[QuestionDAO]:
     """
-    This method is used to obtain questions filtered by category.
-
-    If the provided category is empty, an HTTP exception with code 400 is raised. 
-    If the category is valid, a list of 'QuestionDAO' objects containing the questions is returned. 
-    belonging to the given category.
+    Retrieve questions that belong to a specific category.
 
     Args:
-        category (str): The category by which to filter the questions.
+        category (str): The category to filter by.
 
     Returns:
-        List[QuestionDAO]: List of 'QuestionDAO' objects containing the questions
-        filtered by the given category.
-    
+        List[QuestionDAO]: A list of matching questions.
+
     Raises:
-        HTTPException: If the category is empty, an HTTP 400 exception is thrown.
+        HTTPException: If the category is empty.
     """
-    if category == "":
+    if not category:
         raise HTTPException(status_code=400, detail="The category cannot be empty.")
     return services.get_by_category(category)
+
+@router.post("/questions/add")
+def add_question(question: QuestionDAO):
+    """
+    Add a new question to the database if the online user is an administrator.
+
+    Args:
+        question (QuestionDAO): The question data to be added.
+
+    Returns:
+        dict: A success message if the question is added successfully.
+
+    Raises:
+        HTTPException: If the online user is not an admin.
+    """
+    result = services.add_question(question)
+    if "error" in result:
+        raise HTTPException(status_code=403, detail=result["error"])
+    return result

@@ -1,1421 +1,1428 @@
 {
     "questions": [
-      {
-        "statement": "What is the capital of France?",
-        "category": "Geography",
-        "correctAnswer": "Paris",
-        "answer2": "Berlin",
-        "answer3": "Madrid",
-        "answer4": "Rome"
-      },
-      {
-        "statement": "Which planet is known as the Red Planet?",
-        "category": "Science",
-        "correctAnswer": "Mars",
-        "answer2": "Venus",
-        "answer3": "Jupiter",
-        "answer4": "Saturn"
-      },
-      {
-        "statement": "Who wrote 'To Kill a Mockingbird'?",
-        "category": "Literature",
-        "correctAnswer": "Harper Lee",
-        "answer2": "J.K. Rowling",
-        "answer3": "Ernest Hemingway",
-        "answer4": "Mark Twain"
-      },
-      {
-        "statement": "What is the smallest unit of life?",
-        "category": "Biology",
-        "correctAnswer": "Cell",
-        "answer2": "Atom",
-        "answer3": "Molecule",
-        "answer4": "Organ"
-      },
-      {
-        "statement": "What year did the Titanic sink?",
-        "category": "History",
-        "correctAnswer": "1912",
-        "answer2": "1905",
-        "answer3": "1923",
-        "answer4": "1898"
-      },
-      {
-        "statement": "Who was the first president of the United States?",
-        "category": "History",
-        "correctAnswer": "George Washington",
-        "answer2": "Thomas Jefferson",
-        "answer3": "Abraham Lincoln",
-        "answer4": "John Adams"
-      },
-      {
-        "statement": "In which year did the French Revolution begin?",
-        "category": "History",
-        "correctAnswer": "1789",
-        "answer2": "1776",
-        "answer3": "1812",
-        "answer4": "1492"
-      },
-      {
-        "statement": "What was the main cause of World War I?",
-        "category": "History",
-        "correctAnswer": "The assassination of Archduke Franz Ferdinand",
-        "answer2": "Colonial rivalry",
-        "answer3": "The Industrial Revolution",
-        "answer4": "The Treaty of Versailles"
-      },
-      {
-        "statement": "Which empire built the Colosseum in Rome?",
-        "category": "History",
-        "correctAnswer": "The Roman Empire",
-        "answer2": "The Byzantine Empire",
-        "answer3": "The Ottoman Empire",
-        "answer4": "The Greek Empire"
-      },
-      {
-        "statement": "In what year did Christopher Columbus reach America?",
-        "category": "History",
-        "correctAnswer": "1492",
-        "answer2": "1498",
-        "answer3": "1501",
-        "answer4": "1607"
-      },
-      {
-        "statement": "Who was the leader of the Third Reich in Germany?",
-        "category": "History",
-        "correctAnswer": "Adolf Hitler",
-        "answer2": "Joseph Stalin",
-        "answer3": "Benito Mussolini",
-        "answer4": "Francisco Franco"
-      },
-      {
-        "statement": "Which civilization built the pyramids in Egypt?",
-        "category": "History",
-        "correctAnswer": "The Ancient Egyptian civilization",
-        "answer2": "The Mayans",
-        "answer3": "The Romans",
-        "answer4": "The Aztecs"
-      },
-      {
-        "statement": "Who was the leader of the Aztecs when the Spanish conquistadors arrived?",
-        "category": "History",
-        "correctAnswer": "Moctezuma II",
-        "answer2": "Pachacuti",
-        "answer3": "Atahualpa",
-        "answer4": "Cuauhtémoc"
-      },
-      {
-        "statement": "In what year did World War II end?",
-        "category": "History",
-        "correctAnswer": "1945",
-        "answer2": "1939",
-        "answer3": "1918",
-        "answer4": "1963"
-      },
-      {
-        "statement": "Which civilization built the Great Wall of China?",
-        "category": "History",
-        "correctAnswer": "The Ming Dynasty",
-        "answer2": "The Tang Dynasty",
-        "answer3": "The Qin Dynasty",
-        "answer4": "The Han Dynasty"
-      },
-      {
-        "statement": "Who was the leader of the Mexican Revolution?",
-        "category": "History",
-        "correctAnswer": "Emiliano Zapata",
-        "answer2": "Pancho Villa",
-        "answer3": "Porfirio Díaz",
-        "answer4": "Benito Juárez"
-      },
-      {
-        "statement": "What treaty ended World War I?",
-        "category": "History",
-        "correctAnswer": "The Treaty of Versailles",
-        "answer2": "The Treaty of Tordesillas",
-        "answer3": "The Treaty of Paris",
-        "answer4": "The Treaty of Brest-Litovsk"
-      },
-      {
-        "statement": "Who led the Russian Revolution of 1917?",
-        "category": "History",
-        "correctAnswer": "Vladimir Lenin",
-        "answer2": "Joseph Stalin",
-        "answer3": "Leon Trotsky",
-        "answer4": "Alexander Kerensky"
-      },
-      {
-        "statement": "Which empire fell in 1453 after the fall of Constantinople?",
-        "category": "History",
-        "correctAnswer": "The Byzantine Empire",
-        "answer2": "The Roman Empire",
-        "answer3": "The Ottoman Empire",
-        "answer4": "The Greek Empire"
-      },
-      {
-        "statement": "What was the main cause of the American Civil War?",
-        "category": "History",
-        "correctAnswer": "Slavery",
-        "answer2": "International trade",
-        "answer3": "State independence",
-        "answer4": "Westward expansion"
-      },
-      {
-        "statement": "In what year was the United States Declaration of Independence signed?",
-        "category": "History",
-        "correctAnswer": "1776",
-        "answer2": "1801",
-        "answer3": "1620",
-        "answer4": "1789"
-      },
-      {
-        "statement": "What was the period of the Middle Ages in Europe?",
-        "category": "History",
-        "correctAnswer": "From the 5th century to the 15th century",
-        "answer2": "From the 9th century to the 13th century",
-        "answer3": "From the 14th century to the 17th century",
-        "answer4": "From the 10th century to the 18th century"
-      },
-      {
-        "statement": "Who was the first emperor of China?",
-        "category": "History",
-        "correctAnswer": "Qin Shi Huang",
-        "answer2": "Liu Bang",
-        "answer3": "Wu Zetian",
-        "answer4": "Sun Yat-sen"
-      },
-      {
-        "statement": "What event marked the beginning of the Modern Age?",
-        "category": "History",
-        "correctAnswer": "The fall of Constantinople",
-        "answer2": "The discovery of America",
-        "answer3": "The signing of the Magna Carta",
-        "answer4": "The French Revolution"
-      },
-      {
-        "statement": "In which war was the Battle of Waterloo fought?",
-        "category": "History",
-        "correctAnswer": "The Napoleonic Wars",
-        "answer2": "The American Revolutionary War",
-        "answer3": "World War I",
-        "answer4": "The Spanish Civil War"
-      },
-      {
-        "statement": "What empire was ruled by Genghis Khan?",
-        "category": "History",
-        "correctAnswer": "The Mongol Empire",
-        "answer2": "The Ottoman Empire",
-        "answer3": "The Roman Empire",
-        "answer4": "The Byzantine Empire"
-      },
-      {
-        "statement": "Who was the first female pharaoh of Egypt?",
-        "category": "History",
-        "correctAnswer": "Hatshepsut",
-        "answer2": "Cleopatra",
-        "answer3": "Nefertiti",
-        "answer4": "Amenirdis"
-      },
-      {
-        "statement": "Who wrote the 95 Theses that started the Protestant Reformation?",
-        "category": "History",
-        "correctAnswer": "Martin Luther",
-        "answer2": "John Calvin",
-        "answer3": "Henry VIII",
-        "answer4": "Thomas Aquinas"
-      },
-      {
-        "statement": "What was the name of the ship that brought the Pilgrims to America in 1620?",
-        "category": "History",
-        "correctAnswer": "The Mayflower",
-        "answer2": "The Santa Maria",
-        "answer3": "The Beagle",
-        "answer4": "The Discovery"
-      },
-      {
-        "statement": "What war was fought between the North and South in the United States?",
-        "category": "History",
-        "correctAnswer": "The American Civil War",
-        "answer2": "The Revolutionary War",
-        "answer3": "The War of 1812",
-        "answer4": "The Spanish-American War"
-      },
-      {
-        "statement": "Who was the British Prime Minister during most of World War II?",
-        "category": "History",
-        "correctAnswer": "Winston Churchill",
-        "answer2": "Neville Chamberlain",
-        "answer3": "Margaret Thatcher",
-        "answer4": "Tony Blair"
-      },
-      {
-        "statement": "What empire was ruled by Julius Caesar?",
-        "category": "History",
-        "correctAnswer": "The Roman Empire",
-        "answer2": "The Byzantine Empire",
-        "answer3": "The Ottoman Empire",
-        "answer4": "The Macedonian Empire"
-      },
-      {
-        "statement": "What was the name of the first artificial satellite launched into space?",
-        "category": "History",
-        "correctAnswer": "Sputnik 1",
-        "answer2": "Apollo 11",
-        "answer3": "Voyager 1",
-        "answer4": "Hubble Space Telescope"
-      },
-      {
-        "statement": "In what year did the Berlin Wall fall?",
-        "category": "History",
-        "correctAnswer": "1989",
-        "answer2": "1991",
-        "answer3": "1979",
-        "answer4": "1965"
-      },
-      {
-        "statement": "Who was the first emperor of Rome?",
-        "category": "History",
-        "correctAnswer": "Augustus",
-        "answer2": "Julius Caesar",
-        "answer3": "Nero",
-        "answer4": "Caligula"
-      },
-      {
-        "statement": "Which planet is known as the Red Planet?",
-        "category": "Science",
-        "correctAnswer": "Mars",
-        "answer2": "Venus",
-        "answer3": "Jupiter",
-        "answer4": "Saturn"
-      },
-      {
-        "statement": "What is the chemical symbol for water?",
-        "category": "Science",
-        "correctAnswer": "H2O",
-        "answer2": "CO2",
-        "answer3": "O2",
-        "answer4": "N2"
-      },
-      {
-        "statement": "Which element is the most abundant in the Earth's atmosphere?",
-        "category": "Science",
-        "correctAnswer": "Nitrogen",
-        "answer2": "Oxygen",
-        "answer3": "Carbon dioxide",
-        "answer4": "Argon"
-      },
-      {
-        "statement": "What is the hardest natural substance on Earth?",
-        "category": "Science",
-        "correctAnswer": "Diamond",
-        "answer2": "Gold",
-        "answer3": "Iron",
-        "answer4": "Titanium"
-      },
-      {
-        "statement": "Which organ is responsible for pumping blood throughout the human body?",
-        "category": "Science",
-        "correctAnswer": "Heart",
-        "answer2": "Brain",
-        "answer3": "Lungs",
-        "answer4": "Liver"
-      },
-      {
-        "statement": "What is the chemical formula for methane?",
-        "category": "Science",
-        "correctAnswer": "CH4",
-        "answer2": "CO2",
-        "answer3": "C2H6",
-        "answer4": "C3H8"
-      },
-      {
-        "statement": "What is the main gas responsible for the greenhouse effect?",
-        "category": "Science",
-        "correctAnswer": "Carbon dioxide",
-        "answer2": "Methane",
-        "answer3": "Oxygen",
-        "answer4": "Nitrogen"
-      },
-      {
-        "statement": "How many bones are there in the adult human body?",
-        "category": "Science",
-        "correctAnswer": "206",
-        "answer2": "201",
-        "answer3": "215",
-        "answer4": "250"
-      },
-      {
-        "statement": "What is the powerhouse of the cell?",
-        "category": "Science",
-        "correctAnswer": "Mitochondria",
-        "answer2": "Nucleus",
-        "answer3": "Ribosomes",
-        "answer4": "Endoplasmic reticulum"
-      },
-      {
-        "statement": "Which vitamin is primarily obtained from sunlight?",
-        "category": "Science",
-        "correctAnswer": "Vitamin D",
-        "answer2": "Vitamin A",
-        "answer3": "Vitamin C",
-        "answer4": "Vitamin E"
-      },
-      {
-        "statement": "What is the boiling point of water at sea level?",
-        "category": "Science",
-        "correctAnswer": "100°C",
-        "answer2": "90°C",
-        "answer3": "120°C",
-        "answer4": "80°C"
-      },
-      {
-        "statement": "What is the chemical symbol for gold?",
-        "category": "Science",
-        "correctAnswer": "Au",
-        "answer2": "Ag",
-        "answer3": "Fe",
-        "answer4": "Pb"
-      },
-      {
-        "statement": "Which planet is closest to the sun?",
-        "category": "Science",
-        "correctAnswer": "Mercury",
-        "answer2": "Venus",
-        "answer3": "Earth",
-        "answer4": "Mars"
-      },
-      {
-        "statement": "Which scientist developed the theory of relativity?",
-        "category": "Science",
-        "correctAnswer": "Albert Einstein",
-        "answer2": "Isaac Newton",
-        "answer3": "Nikola Tesla",
-        "answer4": "Galileo Galilei"
-      },
-      {
-        "statement": "What is the chemical symbol for potassium?",
-        "category": "Science",
-        "correctAnswer": "K",
-        "answer2": "Na",
-        "answer3": "P",
-        "answer4": "Ca"
-      },
-      {
-        "statement": "Which animal is known as the king of the jungle?",
-        "category": "Science",
-        "correctAnswer": "Lion",
-        "answer2": "Tiger",
-        "answer3": "Elephant",
-        "answer4": "Bear"
-      },
-      {
-        "statement": "What gas do plants absorb from the atmosphere during photosynthesis?",
-        "category": "Science",
-        "correctAnswer": "Carbon dioxide",
-        "answer2": "Oxygen",
-        "answer3": "Nitrogen",
-        "answer4": "Argon"
-      },
-      {
-        "statement": "What is the smallest planet in the solar system?",
-        "category": "Science",
-        "correctAnswer": "Mercury",
-        "answer2": "Mars",
-        "answer3": "Venus",
-        "answer4": "Earth"
-      },
-      {
-        "statement": "What is the chemical symbol for sodium?",
-        "category": "Science",
-        "correctAnswer": "Na",
-        "answer2": "K",
-        "answer3": "Ca",
-        "answer4": "Mg"
-      },
-      {
-        "statement": "Which ocean is the largest by surface area?",
-        "category": "Science",
-        "correctAnswer": "Pacific Ocean",
-        "answer2": "Atlantic Ocean",
-        "answer3": "Indian Ocean",
-        "answer4": "Arctic Ocean"
-      },
-      {
-        "statement": "What type of rock is formed from lava or magma?",
-        "category": "Science",
-        "correctAnswer": "Igneous",
-        "answer2": "Sedimentary",
-        "answer3": "Metamorphic",
-        "answer4": "Fossil"
-      },
-      {
-        "statement": "Which part of the brain controls voluntary movements?",
-        "category": "Science",
-        "correctAnswer": "Cerebrum",
-        "answer2": "Cerebellum",
-        "answer3": "Medulla",
-        "answer4": "Hypothalamus"
-      },
-      {
-        "statement": "Which planet has the most moons?",
-        "category": "Science",
-        "correctAnswer": "Jupiter",
-        "answer2": "Saturn",
-        "answer3": "Mars",
-        "answer4": "Uranus"
-      },
-      {
-        "statement": "What is the speed of light?",
-        "category": "Science",
-        "correctAnswer": "299,792 km/s",
-        "answer2": "300,000 km/s",
-        "answer3": "150,000 km/s",
-        "answer4": "200,000 km/s"
-      },
-      {
-        "statement": "Which type of galaxy is the Milky Way?",
-        "category": "Science",
-        "correctAnswer": "Spiral galaxy",
-        "answer2": "Elliptical galaxy",
-        "answer3": "Irregular galaxy",
-        "answer4": "Lenticular galaxy"
-      },
-      {
-        "statement": "Which particle is negatively charged?",
-        "category": "Science",
-        "correctAnswer": "Electron",
-        "answer2": "Proton",
-        "answer3": "Neutron",
-        "answer4": "Photon"
-      },
-      {
-        "statement": "Which animal is known to have the longest lifespan?",
-        "category": "Science",
-        "correctAnswer": "Bowhead whale",
-        "answer2": "Galápagos tortoise",
-        "answer3": "Elephant",
-        "answer4": "Orangutan"
-      },
-      {
-        "statement": "What is the process by which plants make their own food?",
-        "category": "Science",
-        "correctAnswer": "Photosynthesis",
-        "answer2": "Respiration",
-        "answer3": "Digestion",
-        "answer4": "Fermentation"
-      },
-      {
-        "statement": "Which gas makes up the majority of the Earth's atmosphere?",
-        "category": "Science",
-        "correctAnswer": "Nitrogen",
-        "answer2": "Oxygen",
-        "answer3": "Carbon dioxide",
-        "answer4": "Argon"
-      },
-      {
-        "statement": "Which part of the plant is responsible for photosynthesis?",
-        "category": "Science",
-        "correctAnswer": "Leaves",
-        "answer2": "Roots",
-        "answer3": "Stem",
-        "answer4": "Flowers"
-      },
-      {
-        "statement": "What is the main component of the Sun?",
-        "category": "Science",
-        "correctAnswer": "Hydrogen",
-        "answer2": "Oxygen",
-        "answer3": "Helium",
-        "answer4": "Carbon"
-      },
-      {
-        "statement": "What is the most common element in the Earth's crust?",
-        "category": "Science",
-        "correctAnswer": "Oxygen",
-        "answer2": "Silicon",
-        "answer3": "Aluminum",
-        "answer4": "Iron"
-      },
-      {
-        "statement": "Which country is known as the Land of the Rising Sun?",
-        "category": "Geography",
-        "correctAnswer": "Japan",
-        "answer2": "China",
-        "answer3": "South Korea",
-        "answer4": "India"
-      },
-      {
-        "statement": "What is the longest river in the world?",
-        "category": "Geography",
-        "correctAnswer": "Amazon River",
-        "answer2": "Nile River",
-        "answer3": "Yangtze River",
-        "answer4": "Mississippi River"
-      },
-      {
-        "statement": "Which country has the most natural lakes?",
-        "category": "Geography",
-        "correctAnswer": "Canada",
-        "answer2": "Russia",
-        "answer3": "United States",
-        "answer4": "Brazil"
-      },
-      {
-        "statement": "What is the capital of Australia?",
-        "category": "Geography",
-        "correctAnswer": "Canberra",
-        "answer2": "Sydney",
-        "answer3": "Melbourne",
-        "answer4": "Brisbane"
-      },
-      {
-        "statement": "Which ocean is the largest?",
-        "category": "Geography",
-        "correctAnswer": "Pacific Ocean",
-        "answer2": "Atlantic Ocean",
-        "answer3": "Indian Ocean",
-        "answer4": "Arctic Ocean"
-      },
-      {
-        "statement": "Which country is both in Europe and Asia?",
-        "category": "Geography",
-        "correctAnswer": "Russia",
-        "answer2": "Turkey",
-        "answer3": "Egypt",
-        "answer4": "Greece"
-      },
-      {
-        "statement": "What is the largest desert in the world?",
-        "category": "Geography",
-        "correctAnswer": "Sahara Desert",
-        "answer2": "Gobi Desert",
-        "answer3": "Kalahari Desert",
-        "answer4": "Atacama Desert"
-      },
-      {
-        "statement": "Which continent is the driest?",
-        "category": "Geography",
-        "correctAnswer": "Antarctica",
-        "answer2": "Africa",
-        "answer3": "Australia",
-        "answer4": "Asia"
-      },
-      {
-        "statement": "Which country has the most volcanoes?",
-        "category": "Geography",
-        "correctAnswer": "Indonesia",
-        "answer2": "Japan",
-        "answer3": "United States",
-        "answer4": "Italy"
-      },
-      {
-        "statement": "What is the largest country by land area?",
-        "category": "Geography",
-        "correctAnswer": "Russia",
-        "answer2": "Canada",
-        "answer3": "United States",
-        "answer4": "China"
-      },
-      {
-        "statement": "Which continent is known as the 'Dark Continent'?",
-        "category": "Geography",
-        "correctAnswer": "Africa",
-        "answer2": "Asia",
-        "answer3": "Europe",
-        "answer4": "Australia"
-      },
-      {
-        "statement": "Which river flows through Egypt?",
-        "category": "Geography",
-        "correctAnswer": "Nile River",
-        "answer2": "Amazon River",
-        "answer3": "Yangtze River",
-        "answer4": "Mississippi River"
-      },
-      {
-        "statement": "What is the capital of Canada?",
-        "category": "Geography",
-        "correctAnswer": "Ottawa",
-        "answer2": "Toronto",
-        "answer3": "Vancouver",
-        "answer4": "Montreal"
-      },
-      {
-        "statement": "Which is the smallest country in the world?",
-        "category": "Geography",
-        "correctAnswer": "Vatican City",
-        "answer2": "Monaco",
-        "answer3": "San Marino",
-        "answer4": "Nauru"
-      },
-      {
-        "statement": "What is the largest island in the world?",
-        "category": "Geography",
-        "correctAnswer": "Greenland",
-        "answer2": "New Guinea",
-        "answer3": "Borneo",
-        "answer4": "Madagascar"
-      },
-      {
-        "statement": "Which country is known as the Land of the Midnight Sun?",
-        "category": "Geography",
-        "correctAnswer": "Norway",
-        "answer2": "Sweden",
-        "answer3": "Finland",
-        "answer4": "Denmark"
-      },
-      {
-        "statement": "Which is the highest mountain in the world?",
-        "category": "Geography",
-        "correctAnswer": "Mount Everest",
-        "answer2": "K2",
-        "answer3": "Kangchenjunga",
-        "answer4": "Mount Kilimanjaro"
-      },
-      {
-        "statement": "What is the capital of Italy?",
-        "category": "Geography",
-        "correctAnswer": "Rome",
-        "answer2": "Milan",
-        "answer3": "Venice",
-        "answer4": "Florence"
-      },
-      {
-        "statement": "Which country has the longest coastline?",
-        "category": "Geography",
-        "correctAnswer": "Canada",
-        "answer2": "Russia",
-        "answer3": "United States",
-        "answer4": "Australia"
-      },
-      {
-        "statement": "Which continent is the least populated?",
-        "category": "Geography",
-        "correctAnswer": "Antarctica",
-        "answer2": "Oceania",
-        "answer3": "Africa",
-        "answer4": "Europe"
-      },
-      {
-        "statement": "What is the capital of Spain?",
-        "category": "Geography",
-        "correctAnswer": "Madrid",
-        "answer2": "Barcelona",
-        "answer3": "Seville",
-        "answer4": "Valencia"
-      },
-      {
-        "statement": "Which country is the smallest in Africa?",
-        "category": "Geography",
-        "correctAnswer": "Seychelles",
-        "answer2": "Malawi",
-        "answer3": "Liberia",
-        "answer4": "Lesotho"
-      },
-      {
-        "statement": "What is the currency of Japan?",
-        "category": "Geography",
-        "correctAnswer": "Yen",
-        "answer2": "Won",
-        "answer3": "Ringgit",
-        "answer4": "Rupee"
-      },
-      {
-        "statement": "What is the capital of Brazil?",
-        "category": "Geography",
-        "correctAnswer": "Brasília",
-        "answer2": "Rio de Janeiro",
-        "answer3": "São Paulo",
-        "answer4": "Salvador"
-      },
-      {
-        "statement": "Which ocean lies between Africa and Australia?",
-        "category": "Geography",
-        "correctAnswer": "Indian Ocean",
-        "answer2": "Atlantic Ocean",
-        "answer3": "Pacific Ocean",
-        "answer4": "Southern Ocean"
-      },
-      {
-        "statement": "Which country is known as the Pearl of Africa?",
-        "category": "Geography",
-        "correctAnswer": "Uganda",
-        "answer2": "Kenya",
-        "answer3": "Tanzania",
-        "answer4": "Rwanda"
-      },
-      {
-        "statement": "What is the capital of Egypt?",
-        "category": "Geography",
-        "correctAnswer": "Cairo",
-        "answer2": "Alexandria",
-        "answer3": "Luxor",
-        "answer4": "Giza"
-      },
-      {
-        "statement": "Which country is home to the Great Barrier Reef?",
-        "category": "Geography",
-        "correctAnswer": "Australia",
-        "answer2": "United States",
-        "answer3": "Mexico",
-        "answer4": "Brazil"
-      },
-      {
-        "statement": "What is the capital of Germany?",
-        "category": "Geography",
-        "correctAnswer": "Berlin",
-        "answer2": "Munich",
-        "answer3": "Hamburg",
-        "answer4": "Frankfurt"
-      },
-      {
-        "statement": "Which country has the tallest building in the world?",
-        "category": "Geography",
-        "correctAnswer": "United Arab Emirates",
-        "answer2": "Saudi Arabia",
-        "answer3": "China",
-        "answer4": "United States"
-      },
-      {
-        "statement": "Who wrote the play 'Romeo and Juliet'?",
-        "category": "Literature",
-        "correctAnswer": "William Shakespeare",
-        "answer2": "Christopher Marlowe",
-        "answer3": "Charles Dickens",
-        "answer4": "Jane Austen"
-      },
-      {
-        "statement": "Which novel begins with the line 'Call me Ishmael'?",
-        "category": "Literature",
-        "correctAnswer": "Moby-Dick",
-        "answer2": "The Great Gatsby",
-        "answer3": "Pride and Prejudice",
-        "answer4": "The Catcher in the Rye"
-      },
-      {
-        "statement": "Who wrote '1984'?",
-        "category": "Literature",
-        "correctAnswer": "George Orwell",
-        "answer2": "Aldous Huxley",
-        "answer3": "Ray Bradbury",
-        "answer4": "Margaret Atwood"
-      },
-      {
-        "statement": "Who is the author of 'The Catcher in the Rye'?",
-        "category": "Literature",
-        "correctAnswer": "J.D. Salinger",
-        "answer2": "F. Scott Fitzgerald",
-        "answer3": "John Steinbeck",
-        "answer4": "Ernest Hemingway"
-      },
-      {
-        "statement": "Who wrote 'The Hobbit'?",
-        "category": "Literature",
-        "correctAnswer": "J.R.R. Tolkien",
-        "answer2": "C.S. Lewis",
-        "answer3": "George R.R. Martin",
-        "answer4": "J.K. Rowling"
-      },
-      {
-        "statement": "Who wrote 'Pride and Prejudice'?",
-        "category": "Literature",
-        "correctAnswer": "Jane Austen",
-        "answer2": "Charlotte Brontë",
-        "answer3": "Emily Dickinson",
-        "answer4": "Virginia Woolf"
-      },
-      {
-        "statement": "Who wrote 'The Great Gatsby'?",
-        "category": "Literature",
-        "correctAnswer": "F. Scott Fitzgerald",
-        "answer2": "Ernest Hemingway",
-        "answer3": "William Faulkner",
-        "answer4": "John Steinbeck"
-      },
-      {
-        "statement": "Who wrote 'The Odyssey'?",
-        "category": "Literature",
-        "correctAnswer": "Homer",
-        "answer2": "Sophocles",
-        "answer3": "Virgil",
-        "answer4": "Aristotle"
-      },
-      {
-        "statement": "Who wrote 'Frankenstein'?",
-        "category": "Literature",
-        "correctAnswer": "Mary Shelley",
-        "answer2": "Bram Stoker",
-        "answer3": "Edgar Allan Poe",
-        "answer4": "H.G. Wells"
-      },
-      {
-        "statement": "Who wrote 'The Picture of Dorian Gray'?",
-        "category": "Literature",
-        "correctAnswer": "Oscar Wilde",
-        "answer2": "Charles Dickens",
-        "answer3": "Mark Twain",
-        "answer4": "Henry James"
-      },
-      {
-        "statement": "Who is the author of 'Brave New World'?",
-        "category": "Literature",
-        "correctAnswer": "Aldous Huxley",
-        "answer2": "George Orwell",
-        "answer3": "Ray Bradbury",
-        "answer4": "Margaret Atwood"
-      },
-      {
-        "statement": "Who wrote 'The Lord of the Rings'?",
-        "category": "Literature",
-        "correctAnswer": "J.R.R. Tolkien",
-        "answer2": "C.S. Lewis",
-        "answer3": "J.K. Rowling",
-        "answer4": "George R.R. Martin"
-      },
-      {
-        "statement": "Who wrote 'Catch-22'?",
-        "category": "Literature",
-        "correctAnswer": "Joseph Heller",
-        "answer2": "Kurt Vonnegut",
-        "answer3": "Thomas Pynchon",
-        "answer4": "Norman Mailer"
-      },
-      {
-        "statement": "Who wrote 'Wuthering Heights'?",
-        "category": "Literature",
-        "correctAnswer": "Emily Brontë",
-        "answer2": "Charlotte Brontë",
-        "answer3": "Jane Austen",
-        "answer4": "Virginia Woolf"
-      },
-      {
-        "statement": "Who is the author of 'The Brothers Karamazov'?",
-        "category": "Literature",
-        "correctAnswer": "Fyodor Dostoevsky",
-        "answer2": "Leo Tolstoy",
-        "answer3": "Anton Chekhov",
-        "answer4": "Ivan Turgenev"
-      },
-      {
-        "statement": "Who wrote 'Moby-Dick'?",
-        "category": "Literature",
-        "correctAnswer": "Herman Melville",
-        "answer2": "Mark Twain",
-        "answer3": "Nathaniel Hawthorne",
-        "answer4": "Ralph Waldo Emerson"
-      },
-      {
-        "statement": "Who wrote 'The Divine Comedy'?",
-        "category": "Literature",
-        "correctAnswer": "Dante Alighieri",
-        "answer2": "Geoffrey Chaucer",
-        "answer3": "John Milton",
-        "answer4": "Homer"
-      },
-      {
-        "statement": "Who wrote 'A Tale of Two Cities'?",
-        "category": "Literature",
-        "correctAnswer": "Charles Dickens",
-        "answer2": "Jane Austen",
-        "answer3": "George Orwell",
-        "answer4": "Mark Twain"
-      },
-      {
-        "statement": "Who wrote 'The Catcher in the Rye'?",
-        "category": "Literature",
-        "correctAnswer": "J.D. Salinger",
-        "answer2": "F. Scott Fitzgerald",
-        "answer3": "John Steinbeck",
-        "answer4": "William Faulkner"
-      },
-      {
-        "statement": "Who wrote 'The Scarlet Letter'?",
-        "category": "Literature",
-        "correctAnswer": "Nathaniel Hawthorne",
-        "answer2": "Mark Twain",
-        "answer3": "Harriet Beecher Stowe",
-        "answer4": "Ralph Waldo Emerson"
-      },
-      {
-        "statement": "Who wrote 'The Shining'?",
-        "category": "Literature",
-        "correctAnswer": "Stephen King",
-        "answer2": "Edgar Allan Poe",
-        "answer3": "George Orwell",
-        "answer4": "H.P. Lovecraft"
-      },
-      {
-        "statement": "Who wrote 'Beloved'?",
-        "category": "Literature",
-        "correctAnswer": "Toni Morrison",
-        "answer2": "Maya Angelou",
-        "answer3": "Zora Neale Hurston",
-        "answer4": "Alice Walker"
-      },
-      {
-        "statement": "Who wrote 'Slaughterhouse-Five'?",
-        "category": "Literature",
-        "correctAnswer": "Kurt Vonnegut",
-        "answer2": "Joseph Heller",
-        "answer3": "Thomas Pynchon",
-        "answer4": "Ken Kesey"
-      },
-      {
-        "statement": "Who wrote 'The Road'?",
-        "category": "Literature",
-        "correctAnswer": "Cormac McCarthy",
-        "answer2": "Don DeLillo",
-        "answer3": "Jonathan Franzen",
-        "answer4": "Philip Roth"
-      },
-      {
-        "statement": "Who wrote 'The Old Man and the Sea'?",
-        "category": "Literature",
-        "correctAnswer": "Ernest Hemingway",
-        "answer2": "Mark Twain",
-        "answer3": "John Steinbeck",
-        "answer4": "F. Scott Fitzgerald"
-      },
-      {
-        "statement": "Who wrote 'Anna Karenina'?",
-        "category": "Literature",
-        "correctAnswer": "Leo Tolstoy",
-        "answer2": "Fyodor Dostoevsky",
-        "answer3": "Anton Chekhov",
-        "answer4": "Ivan Turgenev"
-      },
-      {
-        "statement": "Who wrote 'The Alchemist'?",
-        "category": "Literature",
-        "correctAnswer": "Paulo Coelho",
-        "answer2": "Gabriel García Márquez",
-        "answer3": "Isabel Allende",
-        "answer4": "Mario Vargas Llosa"
-      },
-      {
-        "statement": "Who wrote 'The Sun Also Rises'?",
-        "category": "Literature",
-        "correctAnswer": "Ernest Hemingway",
-        "answer2": "F. Scott Fitzgerald",
-        "answer3": "John Steinbeck",
-        "answer4": "William Faulkner"
-      },
-      {
-
-        "statement": "What is the powerhouse of the cell?",
-        "category": "Biology",
-        "correctAnswer": "Mitochondria",
-        "answer2": "Nucleus",
-        "answer3": "Endoplasmic Reticulum",
-        "answer4": "Golgi Apparatus"
-      },
-      {
-        "statement": "Which organ is responsible for pumping blood throughout the body?",
-        "category": "Biology",
-        "correctAnswer": "Heart",
-        "answer2": "Lungs",
-        "answer3": "Liver",
-        "answer4": "Kidneys"
-      },
-      {
-        "statement": "What is the main function of red blood cells?",
-        "category": "Biology",
-        "correctAnswer": "Transport oxygen",
-        "answer2": "Fight infections",
-        "answer3": "Produce hormones",
-        "answer4": "Transmit nerve impulses"
-      },
-      {
-        "statement": "What is the process by which plants make their own food?",
-        "category": "Biology",
-        "correctAnswer": "Photosynthesis",
-        "answer2": "Respiration",
-        "answer3": "Transpiration",
-        "answer4": "Fermentation"
-      },
-      {
-        "statement": "Which part of the cell controls cell activities?",
-        "category": "Biology",
-        "correctAnswer": "Nucleus",
-        "answer2": "Cytoplasm",
-        "answer3": "Mitochondria",
-        "answer4": "Ribosome"
-      },
-      {
-        "statement": "Which organ in the human body is responsible for digestion?",
-        "category": "Biology",
-        "correctAnswer": "Stomach",
-        "answer2": "Liver",
-        "answer3": "Heart",
-        "answer4": "    "
-      },
-      {
-        "statement": "What is the genetic material that carries information in living organisms?",
-        "category": "Biology",
-        "correctAnswer": "DNA",
-        "answer2": "RNA",
-        "answer3": "Proteins",
-        "answer4": "Carbohydrates"
-      },
-      {
-        "statement": "Which type of blood vessel carries blood away from the heart?",
-        "category": "Biology",
-        "correctAnswer": "Artery",
-        "answer2": "Vein",
-        "answer3": "Capillary",
-        "answer4": "Lymphatic vessel"
-      },
-      {
-        "statement": "What is the process by which cells divide to form two identical daughter cells?",
-        "category": "Biology",
-        "correctAnswer": "Mitosis",
-        "answer2": "Meiosis",
-        "answer3": "Fertilization",
-        "answer4": "Germination"
-      },
-      {
-        "statement": "Which system in the body is responsible for transporting oxygen and nutrients?",
-        "category": "Biology",
-        "correctAnswer": "Circulatory system",
-        "answer2": "Digestive system",
-        "answer3": "Nervous system",
-        "answer4": "Respiratory system"
-      },
-      {
-        "statement": "What is the main function of white blood cells?",
-        "category": "Biology",
-        "correctAnswer": "Fight infections",
-        "answer2": "Transport oxygen",
-        "answer3": "Regulate hormones",
-        "answer4": "Produce energy"
-      },
-      {
-        "statement": "Which structure in the plant cell is responsible for photosynthesis?",
-        "category": "Biology",
-        "correctAnswer": "Chloroplast",
-        "answer2": "Mitochondria",
-        "answer3": "Nucleus",
-        "answer4": "Ribosome"
-      },
-      {
-        "statement": "What is the primary function of the large intestine?",
-        "category": "Biology",
-        "correctAnswer": "Absorb water and salts",
-        "answer2": "Digest food",
-        "answer3": "Produce insulin",
-        "answer4": "Filter blood"
-      },
-      {
-        "statement": "Which molecule is used by cells for energy?",
-        "category": "Biology",
-        "correctAnswer": "ATP",
-        "answer2": "Glucose",
-        "answer3": "Oxygen",
-        "answer4": "Carbon dioxide"
-      },
-      {
-        "statement": "What is the term for the ability of an organism to maintain a stable internal environment?",
-        "category": "Biology",
-        "correctAnswer": "Homeostasis",
-        "answer2": "Metabolism",
-        "answer3": "Excretion",
-        "answer4": "Reproduction"
-      },
-      {
-        "statement": "Which organ system is responsible for controlling body functions through electrical impulses?",
-        "category": "Biology",
-        "correctAnswer": "Nervous system",
-        "answer2": "Endocrine system",
-        "answer3": "Circulatory system",
-        "answer4": "Respiratory system"
-      },
-      {
-        "statement": "What is the fluid that circulates in the lymphatic system?",
-        "category": "Biology",
-        "correctAnswer": "Lymph",
-        "answer2": "Blood",
-        "answer3": "Cerebrospinal fluid",
-        "answer4": "Interstitial fluid"
-      },
-      {
-        "statement": "Which organ system helps the body fight infections and diseases?",
-        "category": "Biology",
-        "correctAnswer": "Immune system",
-        "answer2": "Circulatory system",
-        "answer3": "Respiratory system",
-        "answer4": "Digestive system"
-      },
-      {
-        "statement": "What is the basic unit of structure and function in living organisms?",
-        "category": "Biology",
-        "correctAnswer": "Cell",
-        "answer2": "Tissue",
-        "answer3": "Organ",
-        "answer4": "Organ system"
-      },
-      {
-        "statement": "What part of the brain controls balance and coordination?",
-        "category": "Biology",
-        "correctAnswer": "Cerebellum",
-        "answer2": "Cerebrum",
-        "answer3": "Medulla oblongata",
-        "answer4": "Thalamus"
-      },
-      {
-        "statement": "What is the process by which organisms produce offspring?",
-        "category": "Biology",
-        "correctAnswer": "Reproduction",
-        "answer2": "Metabolism",
-        "answer3": "Respiration",
-        "answer4": "Excretion"
-      },
-      {
-        "statement": "Which macromolecule is used by the body for growth and repair?",
-        "category": "Biology",
-        "correctAnswer": "Proteins",
-        "answer2": "Carbohydrates",
-        "answer3": "Fats",
-        "answer4": "Nucleic acids"
-      },
-      {
-        "statement": "Which type of muscle is responsible for involuntary movements?",
-        "category": "Biology",
-        "correctAnswer": "Smooth muscle",
-        "answer2": "Skeletal muscle",
-        "answer3": "Cardiac muscle",
-        "answer4": "Striated muscle"
-      },
-      {
-        "statement": "What is the process by which plants release water vapor through their leaves?",
-        "category": "Biology",
-        "correctAnswer": "Transpiration",
-        "answer2": "Photosynthesis",
-        "answer3": "Respiration",
-        "answer4": "Fermentation"
-      },
-      {
-        "statement": "Which sport is known as the 'king of sports'?",
-        "category": "Sports",
-        "correctAnswer": "Soccer",
-        "answer2": "Basketball",
-        "answer3": "Tennis",
-        "answer4": "Baseball"
-      },
-      {
-        "statement": "Who holds the record for most Olympic gold medals in swimming?",
-        "category": "Sports",
-        "correctAnswer": "Michael Phelps",
-        "answer2": "Ian Thorpe",
-        "answer3": "Caeleb Dressel",
-        "answer4": "Mark Spitz"
-      },
-      {
-        "statement": "What is the maximum score in a single frame of ten-pin bowling?",
-        "category": "Sports",
-        "correctAnswer": "30",
-        "answer2": "10",
-        "answer3": "20",
-        "answer4": "50"
-      },
-      {
-        "statement": "Who won the 2022 FIFA World Cup?",
-        "category": "Sports",
-        "correctAnswer": "Argentina",
-        "answer2": "France",
-        "answer3": "Brazil",
-        "answer4": "Germany"
-      },
-      {
-        "statement": "In tennis, what is the term for a score of 40-40?",
-        "category": "Sports",
-        "correctAnswer": "Deuce",
-        "answer2": "Advantage",
-        "answer3": "Match point",
-        "answer4": "Set point"
-      },
-      {
-        "statement": "Which country has won the most World Series titles in Major League Baseball?",
-        "category": "Sports",
-        "correctAnswer": "New York Yankees",
-        "answer2": "Boston Red Sox",
-        "answer3": "Chicago Cubs",
-        "answer4": "Los Angeles Dodgers"
-      },
-      {
-        "statement": "Who is considered the greatest basketball player of all time?",
-        "category": "Sports",
-        "correctAnswer": "Michael Jordan",
-        "answer2": "LeBron James",
-        "answer3": "Kobe Bryant",
-        "answer4": "Magic Johnson"
-      },
-      {
-        "statement": "In which sport would you perform a 'slam dunk'?",
-        "category": "Sports",
-        "correctAnswer": "Basketball",
-        "answer2": "Football",
-        "answer3": "Volleyball",
-        "answer4": "Baseball"
-      },
-      {
-        "statement": "Which sport is known for its four major Grand Slam tournaments?",
-        "category": "Sports",
-        "correctAnswer": "Tennis",
-        "answer2": "Golf",
-        "answer3": "Boxing",
-        "answer4": "Rugby"
-      },
-      {
-        "statement": "Which athlete is known as 'The Greatest of All Time' (GOAT) in boxing?",
-        "category": "Sports",
-        "correctAnswer": "Muhammad Ali",
-        "answer2": "Mike Tyson",
-        "answer3": "Floyd Mayweather",
-        "answer4": "Sugar Ray Leonard"
-      },
-      {
-        "statement": "How many players are there on a standard soccer team?",
-        "category": "Sports",
-        "correctAnswer": "11",
-        "answer2": "9",
-        "answer3": "13",
-        "answer4": "7"
-      },
-      {
-        "statement": "Which country hosted the 2016 Summer Olympics?",
-        "category": "Sports",
-        "correctAnswer": "Brazil",
-        "answer2": "China",
-        "answer3": "Japan",
-        "answer4": "United States"
-      },
-      {
-        "statement": "What is the distance of a marathon race?",
-        "category": "Sports",
-        "correctAnswer": "42.195 kilometers",
-        "answer2": "26 miles",
-        "answer3": "30 kilometers",
-        "answer4": "21 kilometers"
-      },
-      {
-        "statement": "Who is the all-time top scorer in the history of the NBA?",
-        "category": "Sports",
-        "correctAnswer": "LeBron James",
-        "answer2": "Kareem Abdul-Jabbar",
-        "answer3": "Kobe Bryant",
-        "answer4": "Michael Jordan"
-      },
-      {
-        "statement": "Which country won the first Rugby World Cup in 1987?",
-        "category": "Sports",
-        "correctAnswer": "New Zealand",
-        "answer2": "South Africa",
-        "answer3": "Australia",
-        "answer4": "England"
-      },
-      {
-        "statement": "Who holds the record for the most goals scored in a World Cup?",
-        "category": "Sports",
-        "correctAnswer": "Marta",
-        "answer2": "Pele",
-        "answer3": "Cristiano Ronaldo",
-        "answer4": "Miroslav Klose"
-      },
-      {
-        "statement": "In which sport do athletes compete for a 'Green Jacket'?",
-        "category": "Sports",
-        "correctAnswer": "Golf",
-        "answer2": "Tennis",
-        "answer3": "Cycling",
-        "answer4": "Boxing"
-      },
-      {
-        "statement": "Which city hosted the 2020 Summer Olympics?",
-        "category": "Sports",
-        "correctAnswer": "Tokyo",
-        "answer2": "Paris",
-        "answer3": "London",
-        "answer4": "Beijing"
-      },
-      {
-        "statement": "Which soccer player is known as 'The Atomic Flea'?",
-        "category": "Sports",
-        "correctAnswer": "Lionel Messi",
-        "answer2": "Cristiano Ronaldo",
-        "answer3": "Neymar",
-        "answer4": "Kylian Mbappé"
-      },
-      {
-        "statement": "Which sport is known for the term 'hat trick'?",
-        "category": "Sports",
-        "correctAnswer": "Soccer",
-        "answer2": "Basketball",
-        "answer3": "Cricket",
-        "answer4": "Ice Hockey"
-      },
-      {
-        "statement": "Which country has the most gold medals in the history of the Summer Olympics?",
-        "category": "Sports",
-        "correctAnswer": "United States",
-        "answer2": "China",
-        "answer3": "Germany",
-        "answer4": "Russia"
-      },
-      {
-        "statement": "In which sport would you perform a 'double axel'?",
-        "category": "Sports",
-        "correctAnswer": "Figure skating",
-        "answer2": "Gymnastics",
-        "answer3": "Snowboarding",
-        "answer4": "Diving"
-      },
-      {
-        "statement": "What is the standard duration of a soccer match?",
-        "category": "Sports",
-        "correctAnswer": "90 minutes",
-        "answer2": "60 minutes",
-        "answer3": "120 minutes",
-        "answer4": "80 minutes"
-      },
-      {
-        "statement": "Which basketball player is known for his 'Sky Hook' shot?",
-        "category": "Sports",
-        "correctAnswer": "Kareem Abdul-Jabbar",
-        "answer2": "Michael Jordan",
-        "answer3": "Shaquille O'Neal",
-        "answer4": "LeBron James"
-      },
-      {
-        "statement": "Which team won the 2020 NBA Championship?",
-        "category": "Sports",
-        "correctAnswer": "Los Angeles Lakers",
-        "answer2": "Miami Heat",
-        "answer3": "Golden State Warriors",
-        "answer4": "Toronto Raptors"
-      },
-      {
-        "statement": "What is the maximum score in a game of snooker?",
-        "category": "Sports",
-        "correctAnswer": "147",
-        "answer2": "150",
-        "answer3": "100",
-        "answer4": "120"
-      },
-      {
-        "statement": "Which team won the 2019 ICC Cricket World Cup?",
-        "category": "Sports",
-        "correctAnswer": "England",
-        "answer2": "India",
-        "answer3": "Australia",
-        "answer4": "New Zealand"
-      },
-      {
-        "statement": "What is the primary objective in rugby?",
-        "category": "Sports",
-        "correctAnswer": "Score tries",
-        "answer2": "Score goals",
-        "answer3": "Complete laps",
-        "answer4": "Catch passes"
-      }
+        {
+            "statement": "What is the capital of France?",
+            "category": "Geography",
+            "correctAnswer": "Paris",
+            "answer2": "Berlin",
+            "answer3": "Madrid",
+            "answer4": "Rome"
+        },
+        {
+            "statement": "Which planet is known as the Red Planet?",
+            "category": "Science",
+            "correctAnswer": "Mars",
+            "answer2": "Venus",
+            "answer3": "Jupiter",
+            "answer4": "Saturn"
+        },
+        {
+            "statement": "Who wrote 'To Kill a Mockingbird'?",
+            "category": "Literature",
+            "correctAnswer": "Harper Lee",
+            "answer2": "J.K. Rowling",
+            "answer3": "Ernest Hemingway",
+            "answer4": "Mark Twain"
+        },
+        {
+            "statement": "What is the smallest unit of life?",
+            "category": "Biology",
+            "correctAnswer": "Cell",
+            "answer2": "Atom",
+            "answer3": "Molecule",
+            "answer4": "Organ"
+        },
+        {
+            "statement": "What year did the Titanic sink?",
+            "category": "History",
+            "correctAnswer": "1912",
+            "answer2": "1905",
+            "answer3": "1923",
+            "answer4": "1898"
+        },
+        {
+            "statement": "Who was the first president of the United States?",
+            "category": "History",
+            "correctAnswer": "George Washington",
+            "answer2": "Thomas Jefferson",
+            "answer3": "Abraham Lincoln",
+            "answer4": "John Adams"
+        },
+        {
+            "statement": "In which year did the French Revolution begin?",
+            "category": "History",
+            "correctAnswer": "1789",
+            "answer2": "1776",
+            "answer3": "1812",
+            "answer4": "1492"
+        },
+        {
+            "statement": "What was the main cause of World War I?",
+            "category": "History",
+            "correctAnswer": "The assassination of Archduke Franz Ferdinand",
+            "answer2": "Colonial rivalry",
+            "answer3": "The Industrial Revolution",
+            "answer4": "The Treaty of Versailles"
+        },
+        {
+            "statement": "Which empire built the Colosseum in Rome?",
+            "category": "History",
+            "correctAnswer": "The Roman Empire",
+            "answer2": "The Byzantine Empire",
+            "answer3": "The Ottoman Empire",
+            "answer4": "The Greek Empire"
+        },
+        {
+            "statement": "In what year did Christopher Columbus reach America?",
+            "category": "History",
+            "correctAnswer": "1492",
+            "answer2": "1498",
+            "answer3": "1501",
+            "answer4": "1607"
+        },
+        {
+            "statement": "Who was the leader of the Third Reich in Germany?",
+            "category": "History",
+            "correctAnswer": "Adolf Hitler",
+            "answer2": "Joseph Stalin",
+            "answer3": "Benito Mussolini",
+            "answer4": "Francisco Franco"
+        },
+        {
+            "statement": "Which civilization built the pyramids in Egypt?",
+            "category": "History",
+            "correctAnswer": "The Ancient Egyptian civilization",
+            "answer2": "The Mayans",
+            "answer3": "The Romans",
+            "answer4": "The Aztecs"
+        },
+        {
+            "statement": "Who was the leader of the Aztecs when the Spanish conquistadors arrived?",
+            "category": "History",
+            "correctAnswer": "Moctezuma II",
+            "answer2": "Pachacuti",
+            "answer3": "Atahualpa",
+            "answer4": "Cuauht\u00e9moc"
+        },
+        {
+            "statement": "In what year did World War II end?",
+            "category": "History",
+            "correctAnswer": "1945",
+            "answer2": "1939",
+            "answer3": "1918",
+            "answer4": "1963"
+        },
+        {
+            "statement": "Which civilization built the Great Wall of China?",
+            "category": "History",
+            "correctAnswer": "The Ming Dynasty",
+            "answer2": "The Tang Dynasty",
+            "answer3": "The Qin Dynasty",
+            "answer4": "The Han Dynasty"
+        },
+        {
+            "statement": "Who was the leader of the Mexican Revolution?",
+            "category": "History",
+            "correctAnswer": "Emiliano Zapata",
+            "answer2": "Pancho Villa",
+            "answer3": "Porfirio D\u00edaz",
+            "answer4": "Benito Ju\u00e1rez"
+        },
+        {
+            "statement": "What treaty ended World War I?",
+            "category": "History",
+            "correctAnswer": "The Treaty of Versailles",
+            "answer2": "The Treaty of Tordesillas",
+            "answer3": "The Treaty of Paris",
+            "answer4": "The Treaty of Brest-Litovsk"
+        },
+        {
+            "statement": "Who led the Russian Revolution of 1917?",
+            "category": "History",
+            "correctAnswer": "Vladimir Lenin",
+            "answer2": "Joseph Stalin",
+            "answer3": "Leon Trotsky",
+            "answer4": "Alexander Kerensky"
+        },
+        {
+            "statement": "Which empire fell in 1453 after the fall of Constantinople?",
+            "category": "History",
+            "correctAnswer": "The Byzantine Empire",
+            "answer2": "The Roman Empire",
+            "answer3": "The Ottoman Empire",
+            "answer4": "The Greek Empire"
+        },
+        {
+            "statement": "What was the main cause of the American Civil War?",
+            "category": "History",
+            "correctAnswer": "Slavery",
+            "answer2": "International trade",
+            "answer3": "State independence",
+            "answer4": "Westward expansion"
+        },
+        {
+            "statement": "In what year was the United States Declaration of Independence signed?",
+            "category": "History",
+            "correctAnswer": "1776",
+            "answer2": "1801",
+            "answer3": "1620",
+            "answer4": "1789"
+        },
+        {
+            "statement": "What was the period of the Middle Ages in Europe?",
+            "category": "History",
+            "correctAnswer": "From the 5th century to the 15th century",
+            "answer2": "From the 9th century to the 13th century",
+            "answer3": "From the 14th century to the 17th century",
+            "answer4": "From the 10th century to the 18th century"
+        },
+        {
+            "statement": "Who was the first emperor of China?",
+            "category": "History",
+            "correctAnswer": "Qin Shi Huang",
+            "answer2": "Liu Bang",
+            "answer3": "Wu Zetian",
+            "answer4": "Sun Yat-sen"
+        },
+        {
+            "statement": "What event marked the beginning of the Modern Age?",
+            "category": "History",
+            "correctAnswer": "The fall of Constantinople",
+            "answer2": "The discovery of America",
+            "answer3": "The signing of the Magna Carta",
+            "answer4": "The French Revolution"
+        },
+        {
+            "statement": "In which war was the Battle of Waterloo fought?",
+            "category": "History",
+            "correctAnswer": "The Napoleonic Wars",
+            "answer2": "The American Revolutionary War",
+            "answer3": "World War I",
+            "answer4": "The Spanish Civil War"
+        },
+        {
+            "statement": "What empire was ruled by Genghis Khan?",
+            "category": "History",
+            "correctAnswer": "The Mongol Empire",
+            "answer2": "The Ottoman Empire",
+            "answer3": "The Roman Empire",
+            "answer4": "The Byzantine Empire"
+        },
+        {
+            "statement": "Who was the first female pharaoh of Egypt?",
+            "category": "History",
+            "correctAnswer": "Hatshepsut",
+            "answer2": "Cleopatra",
+            "answer3": "Nefertiti",
+            "answer4": "Amenirdis"
+        },
+        {
+            "statement": "Who wrote the 95 Theses that started the Protestant Reformation?",
+            "category": "History",
+            "correctAnswer": "Martin Luther",
+            "answer2": "John Calvin",
+            "answer3": "Henry VIII",
+            "answer4": "Thomas Aquinas"
+        },
+        {
+            "statement": "What was the name of the ship that brought the Pilgrims to America in 1620?",
+            "category": "History",
+            "correctAnswer": "The Mayflower",
+            "answer2": "The Santa Maria",
+            "answer3": "The Beagle",
+            "answer4": "The Discovery"
+        },
+        {
+            "statement": "What war was fought between the North and South in the United States?",
+            "category": "History",
+            "correctAnswer": "The American Civil War",
+            "answer2": "The Revolutionary War",
+            "answer3": "The War of 1812",
+            "answer4": "The Spanish-American War"
+        },
+        {
+            "statement": "Who was the British Prime Minister during most of World War II?",
+            "category": "History",
+            "correctAnswer": "Winston Churchill",
+            "answer2": "Neville Chamberlain",
+            "answer3": "Margaret Thatcher",
+            "answer4": "Tony Blair"
+        },
+        {
+            "statement": "What empire was ruled by Julius Caesar?",
+            "category": "History",
+            "correctAnswer": "The Roman Empire",
+            "answer2": "The Byzantine Empire",
+            "answer3": "The Ottoman Empire",
+            "answer4": "The Macedonian Empire"
+        },
+        {
+            "statement": "What was the name of the first artificial satellite launched into space?",
+            "category": "History",
+            "correctAnswer": "Sputnik 1",
+            "answer2": "Apollo 11",
+            "answer3": "Voyager 1",
+            "answer4": "Hubble Space Telescope"
+        },
+        {
+            "statement": "In what year did the Berlin Wall fall?",
+            "category": "History",
+            "correctAnswer": "1989",
+            "answer2": "1991",
+            "answer3": "1979",
+            "answer4": "1965"
+        },
+        {
+            "statement": "Who was the first emperor of Rome?",
+            "category": "History",
+            "correctAnswer": "Augustus",
+            "answer2": "Julius Caesar",
+            "answer3": "Nero",
+            "answer4": "Caligula"
+        },
+        {
+            "statement": "Which planet is known as the Red Planet?",
+            "category": "Science",
+            "correctAnswer": "Mars",
+            "answer2": "Venus",
+            "answer3": "Jupiter",
+            "answer4": "Saturn"
+        },
+        {
+            "statement": "What is the chemical symbol for water?",
+            "category": "Science",
+            "correctAnswer": "H2O",
+            "answer2": "CO2",
+            "answer3": "O2",
+            "answer4": "N2"
+        },
+        {
+            "statement": "Which element is the most abundant in the Earth's atmosphere?",
+            "category": "Science",
+            "correctAnswer": "Nitrogen",
+            "answer2": "Oxygen",
+            "answer3": "Carbon dioxide",
+            "answer4": "Argon"
+        },
+        {
+            "statement": "What is the hardest natural substance on Earth?",
+            "category": "Science",
+            "correctAnswer": "Diamond",
+            "answer2": "Gold",
+            "answer3": "Iron",
+            "answer4": "Titanium"
+        },
+        {
+            "statement": "Which organ is responsible for pumping blood throughout the human body?",
+            "category": "Science",
+            "correctAnswer": "Heart",
+            "answer2": "Brain",
+            "answer3": "Lungs",
+            "answer4": "Liver"
+        },
+        {
+            "statement": "What is the chemical formula for methane?",
+            "category": "Science",
+            "correctAnswer": "CH4",
+            "answer2": "CO2",
+            "answer3": "C2H6",
+            "answer4": "C3H8"
+        },
+        {
+            "statement": "What is the main gas responsible for the greenhouse effect?",
+            "category": "Science",
+            "correctAnswer": "Carbon dioxide",
+            "answer2": "Methane",
+            "answer3": "Oxygen",
+            "answer4": "Nitrogen"
+        },
+        {
+            "statement": "How many bones are there in the adult human body?",
+            "category": "Science",
+            "correctAnswer": "206",
+            "answer2": "201",
+            "answer3": "215",
+            "answer4": "250"
+        },
+        {
+            "statement": "What is the powerhouse of the cell?",
+            "category": "Science",
+            "correctAnswer": "Mitochondria",
+            "answer2": "Nucleus",
+            "answer3": "Ribosomes",
+            "answer4": "Endoplasmic reticulum"
+        },
+        {
+            "statement": "Which vitamin is primarily obtained from sunlight?",
+            "category": "Science",
+            "correctAnswer": "Vitamin D",
+            "answer2": "Vitamin A",
+            "answer3": "Vitamin C",
+            "answer4": "Vitamin E"
+        },
+        {
+            "statement": "What is the boiling point of water at sea level?",
+            "category": "Science",
+            "correctAnswer": "100\u00b0C",
+            "answer2": "90\u00b0C",
+            "answer3": "120\u00b0C",
+            "answer4": "80\u00b0C"
+        },
+        {
+            "statement": "What is the chemical symbol for gold?",
+            "category": "Science",
+            "correctAnswer": "Au",
+            "answer2": "Ag",
+            "answer3": "Fe",
+            "answer4": "Pb"
+        },
+        {
+            "statement": "Which planet is closest to the sun?",
+            "category": "Science",
+            "correctAnswer": "Mercury",
+            "answer2": "Venus",
+            "answer3": "Earth",
+            "answer4": "Mars"
+        },
+        {
+            "statement": "Which scientist developed the theory of relativity?",
+            "category": "Science",
+            "correctAnswer": "Albert Einstein",
+            "answer2": "Isaac Newton",
+            "answer3": "Nikola Tesla",
+            "answer4": "Galileo Galilei"
+        },
+        {
+            "statement": "What is the chemical symbol for potassium?",
+            "category": "Science",
+            "correctAnswer": "K",
+            "answer2": "Na",
+            "answer3": "P",
+            "answer4": "Ca"
+        },
+        {
+            "statement": "Which animal is known as the king of the jungle?",
+            "category": "Science",
+            "correctAnswer": "Lion",
+            "answer2": "Tiger",
+            "answer3": "Elephant",
+            "answer4": "Bear"
+        },
+        {
+            "statement": "What gas do plants absorb from the atmosphere during photosynthesis?",
+            "category": "Science",
+            "correctAnswer": "Carbon dioxide",
+            "answer2": "Oxygen",
+            "answer3": "Nitrogen",
+            "answer4": "Argon"
+        },
+        {
+            "statement": "What is the smallest planet in the solar system?",
+            "category": "Science",
+            "correctAnswer": "Mercury",
+            "answer2": "Mars",
+            "answer3": "Venus",
+            "answer4": "Earth"
+        },
+        {
+            "statement": "What is the chemical symbol for sodium?",
+            "category": "Science",
+            "correctAnswer": "Na",
+            "answer2": "K",
+            "answer3": "Ca",
+            "answer4": "Mg"
+        },
+        {
+            "statement": "Which ocean is the largest by surface area?",
+            "category": "Science",
+            "correctAnswer": "Pacific Ocean",
+            "answer2": "Atlantic Ocean",
+            "answer3": "Indian Ocean",
+            "answer4": "Arctic Ocean"
+        },
+        {
+            "statement": "What type of rock is formed from lava or magma?",
+            "category": "Science",
+            "correctAnswer": "Igneous",
+            "answer2": "Sedimentary",
+            "answer3": "Metamorphic",
+            "answer4": "Fossil"
+        },
+        {
+            "statement": "Which part of the brain controls voluntary movements?",
+            "category": "Science",
+            "correctAnswer": "Cerebrum",
+            "answer2": "Cerebellum",
+            "answer3": "Medulla",
+            "answer4": "Hypothalamus"
+        },
+        {
+            "statement": "Which planet has the most moons?",
+            "category": "Science",
+            "correctAnswer": "Jupiter",
+            "answer2": "Saturn",
+            "answer3": "Mars",
+            "answer4": "Uranus"
+        },
+        {
+            "statement": "What is the speed of light?",
+            "category": "Science",
+            "correctAnswer": "299,792 km/s",
+            "answer2": "300,000 km/s",
+            "answer3": "150,000 km/s",
+            "answer4": "200,000 km/s"
+        },
+        {
+            "statement": "Which type of galaxy is the Milky Way?",
+            "category": "Science",
+            "correctAnswer": "Spiral galaxy",
+            "answer2": "Elliptical galaxy",
+            "answer3": "Irregular galaxy",
+            "answer4": "Lenticular galaxy"
+        },
+        {
+            "statement": "Which particle is negatively charged?",
+            "category": "Science",
+            "correctAnswer": "Electron",
+            "answer2": "Proton",
+            "answer3": "Neutron",
+            "answer4": "Photon"
+        },
+        {
+            "statement": "Which animal is known to have the longest lifespan?",
+            "category": "Science",
+            "correctAnswer": "Bowhead whale",
+            "answer2": "Gal\u00e1pagos tortoise",
+            "answer3": "Elephant",
+            "answer4": "Orangutan"
+        },
+        {
+            "statement": "What is the process by which plants make their own food?",
+            "category": "Science",
+            "correctAnswer": "Photosynthesis",
+            "answer2": "Respiration",
+            "answer3": "Digestion",
+            "answer4": "Fermentation"
+        },
+        {
+            "statement": "Which gas makes up the majority of the Earth's atmosphere?",
+            "category": "Science",
+            "correctAnswer": "Nitrogen",
+            "answer2": "Oxygen",
+            "answer3": "Carbon dioxide",
+            "answer4": "Argon"
+        },
+        {
+            "statement": "Which part of the plant is responsible for photosynthesis?",
+            "category": "Science",
+            "correctAnswer": "Leaves",
+            "answer2": "Roots",
+            "answer3": "Stem",
+            "answer4": "Flowers"
+        },
+        {
+            "statement": "What is the main component of the Sun?",
+            "category": "Science",
+            "correctAnswer": "Hydrogen",
+            "answer2": "Oxygen",
+            "answer3": "Helium",
+            "answer4": "Carbon"
+        },
+        {
+            "statement": "What is the most common element in the Earth's crust?",
+            "category": "Science",
+            "correctAnswer": "Oxygen",
+            "answer2": "Silicon",
+            "answer3": "Aluminum",
+            "answer4": "Iron"
+        },
+        {
+            "statement": "Which country is known as the Land of the Rising Sun?",
+            "category": "Geography",
+            "correctAnswer": "Japan",
+            "answer2": "China",
+            "answer3": "South Korea",
+            "answer4": "India"
+        },
+        {
+            "statement": "What is the longest river in the world?",
+            "category": "Geography",
+            "correctAnswer": "Amazon River",
+            "answer2": "Nile River",
+            "answer3": "Yangtze River",
+            "answer4": "Mississippi River"
+        },
+        {
+            "statement": "Which country has the most natural lakes?",
+            "category": "Geography",
+            "correctAnswer": "Canada",
+            "answer2": "Russia",
+            "answer3": "United States",
+            "answer4": "Brazil"
+        },
+        {
+            "statement": "What is the capital of Australia?",
+            "category": "Geography",
+            "correctAnswer": "Canberra",
+            "answer2": "Sydney",
+            "answer3": "Melbourne",
+            "answer4": "Brisbane"
+        },
+        {
+            "statement": "Which ocean is the largest?",
+            "category": "Geography",
+            "correctAnswer": "Pacific Ocean",
+            "answer2": "Atlantic Ocean",
+            "answer3": "Indian Ocean",
+            "answer4": "Arctic Ocean"
+        },
+        {
+            "statement": "Which country is both in Europe and Asia?",
+            "category": "Geography",
+            "correctAnswer": "Russia",
+            "answer2": "Turkey",
+            "answer3": "Egypt",
+            "answer4": "Greece"
+        },
+        {
+            "statement": "What is the largest desert in the world?",
+            "category": "Geography",
+            "correctAnswer": "Sahara Desert",
+            "answer2": "Gobi Desert",
+            "answer3": "Kalahari Desert",
+            "answer4": "Atacama Desert"
+        },
+        {
+            "statement": "Which continent is the driest?",
+            "category": "Geography",
+            "correctAnswer": "Antarctica",
+            "answer2": "Africa",
+            "answer3": "Australia",
+            "answer4": "Asia"
+        },
+        {
+            "statement": "Which country has the most volcanoes?",
+            "category": "Geography",
+            "correctAnswer": "Indonesia",
+            "answer2": "Japan",
+            "answer3": "United States",
+            "answer4": "Italy"
+        },
+        {
+            "statement": "What is the largest country by land area?",
+            "category": "Geography",
+            "correctAnswer": "Russia",
+            "answer2": "Canada",
+            "answer3": "United States",
+            "answer4": "China"
+        },
+        {
+            "statement": "Which continent is known as the 'Dark Continent'?",
+            "category": "Geography",
+            "correctAnswer": "Africa",
+            "answer2": "Asia",
+            "answer3": "Europe",
+            "answer4": "Australia"
+        },
+        {
+            "statement": "Which river flows through Egypt?",
+            "category": "Geography",
+            "correctAnswer": "Nile River",
+            "answer2": "Amazon River",
+            "answer3": "Yangtze River",
+            "answer4": "Mississippi River"
+        },
+        {
+            "statement": "What is the capital of Canada?",
+            "category": "Geography",
+            "correctAnswer": "Ottawa",
+            "answer2": "Toronto",
+            "answer3": "Vancouver",
+            "answer4": "Montreal"
+        },
+        {
+            "statement": "Which is the smallest country in the world?",
+            "category": "Geography",
+            "correctAnswer": "Vatican City",
+            "answer2": "Monaco",
+            "answer3": "San Marino",
+            "answer4": "Nauru"
+        },
+        {
+            "statement": "What is the largest island in the world?",
+            "category": "Geography",
+            "correctAnswer": "Greenland",
+            "answer2": "New Guinea",
+            "answer3": "Borneo",
+            "answer4": "Madagascar"
+        },
+        {
+            "statement": "Which country is known as the Land of the Midnight Sun?",
+            "category": "Geography",
+            "correctAnswer": "Norway",
+            "answer2": "Sweden",
+            "answer3": "Finland",
+            "answer4": "Denmark"
+        },
+        {
+            "statement": "Which is the highest mountain in the world?",
+            "category": "Geography",
+            "correctAnswer": "Mount Everest",
+            "answer2": "K2",
+            "answer3": "Kangchenjunga",
+            "answer4": "Mount Kilimanjaro"
+        },
+        {
+            "statement": "What is the capital of Italy?",
+            "category": "Geography",
+            "correctAnswer": "Rome",
+            "answer2": "Milan",
+            "answer3": "Venice",
+            "answer4": "Florence"
+        },
+        {
+            "statement": "Which country has the longest coastline?",
+            "category": "Geography",
+            "correctAnswer": "Canada",
+            "answer2": "Russia",
+            "answer3": "United States",
+            "answer4": "Australia"
+        },
+        {
+            "statement": "Which continent is the least populated?",
+            "category": "Geography",
+            "correctAnswer": "Antarctica",
+            "answer2": "Oceania",
+            "answer3": "Africa",
+            "answer4": "Europe"
+        },
+        {
+            "statement": "What is the capital of Spain?",
+            "category": "Geography",
+            "correctAnswer": "Madrid",
+            "answer2": "Barcelona",
+            "answer3": "Seville",
+            "answer4": "Valencia"
+        },
+        {
+            "statement": "Which country is the smallest in Africa?",
+            "category": "Geography",
+            "correctAnswer": "Seychelles",
+            "answer2": "Malawi",
+            "answer3": "Liberia",
+            "answer4": "Lesotho"
+        },
+        {
+            "statement": "What is the currency of Japan?",
+            "category": "Geography",
+            "correctAnswer": "Yen",
+            "answer2": "Won",
+            "answer3": "Ringgit",
+            "answer4": "Rupee"
+        },
+        {
+            "statement": "What is the capital of Brazil?",
+            "category": "Geography",
+            "correctAnswer": "Bras\u00edlia",
+            "answer2": "Rio de Janeiro",
+            "answer3": "S\u00e3o Paulo",
+            "answer4": "Salvador"
+        },
+        {
+            "statement": "Which ocean lies between Africa and Australia?",
+            "category": "Geography",
+            "correctAnswer": "Indian Ocean",
+            "answer2": "Atlantic Ocean",
+            "answer3": "Pacific Ocean",
+            "answer4": "Southern Ocean"
+        },
+        {
+            "statement": "Which country is known as the Pearl of Africa?",
+            "category": "Geography",
+            "correctAnswer": "Uganda",
+            "answer2": "Kenya",
+            "answer3": "Tanzania",
+            "answer4": "Rwanda"
+        },
+        {
+            "statement": "What is the capital of Egypt?",
+            "category": "Geography",
+            "correctAnswer": "Cairo",
+            "answer2": "Alexandria",
+            "answer3": "Luxor",
+            "answer4": "Giza"
+        },
+        {
+            "statement": "Which country is home to the Great Barrier Reef?",
+            "category": "Geography",
+            "correctAnswer": "Australia",
+            "answer2": "United States",
+            "answer3": "Mexico",
+            "answer4": "Brazil"
+        },
+        {
+            "statement": "What is the capital of Germany?",
+            "category": "Geography",
+            "correctAnswer": "Berlin",
+            "answer2": "Munich",
+            "answer3": "Hamburg",
+            "answer4": "Frankfurt"
+        },
+        {
+            "statement": "Which country has the tallest building in the world?",
+            "category": "Geography",
+            "correctAnswer": "United Arab Emirates",
+            "answer2": "Saudi Arabia",
+            "answer3": "China",
+            "answer4": "United States"
+        },
+        {
+            "statement": "Who wrote the play 'Romeo and Juliet'?",
+            "category": "Literature",
+            "correctAnswer": "William Shakespeare",
+            "answer2": "Christopher Marlowe",
+            "answer3": "Charles Dickens",
+            "answer4": "Jane Austen"
+        },
+        {
+            "statement": "Which novel begins with the line 'Call me Ishmael'?",
+            "category": "Literature",
+            "correctAnswer": "Moby-Dick",
+            "answer2": "The Great Gatsby",
+            "answer3": "Pride and Prejudice",
+            "answer4": "The Catcher in the Rye"
+        },
+        {
+            "statement": "Who wrote '1984'?",
+            "category": "Literature",
+            "correctAnswer": "George Orwell",
+            "answer2": "Aldous Huxley",
+            "answer3": "Ray Bradbury",
+            "answer4": "Margaret Atwood"
+        },
+        {
+            "statement": "Who is the author of 'The Catcher in the Rye'?",
+            "category": "Literature",
+            "correctAnswer": "J.D. Salinger",
+            "answer2": "F. Scott Fitzgerald",
+            "answer3": "John Steinbeck",
+            "answer4": "Ernest Hemingway"
+        },
+        {
+            "statement": "Who wrote 'The Hobbit'?",
+            "category": "Literature",
+            "correctAnswer": "J.R.R. Tolkien",
+            "answer2": "C.S. Lewis",
+            "answer3": "George R.R. Martin",
+            "answer4": "J.K. Rowling"
+        },
+        {
+            "statement": "Who wrote 'Pride and Prejudice'?",
+            "category": "Literature",
+            "correctAnswer": "Jane Austen",
+            "answer2": "Charlotte Bront\u00eb",
+            "answer3": "Emily Dickinson",
+            "answer4": "Virginia Woolf"
+        },
+        {
+            "statement": "Who wrote 'The Great Gatsby'?",
+            "category": "Literature",
+            "correctAnswer": "F. Scott Fitzgerald",
+            "answer2": "Ernest Hemingway",
+            "answer3": "William Faulkner",
+            "answer4": "John Steinbeck"
+        },
+        {
+            "statement": "Who wrote 'The Odyssey'?",
+            "category": "Literature",
+            "correctAnswer": "Homer",
+            "answer2": "Sophocles",
+            "answer3": "Virgil",
+            "answer4": "Aristotle"
+        },
+        {
+            "statement": "Who wrote 'Frankenstein'?",
+            "category": "Literature",
+            "correctAnswer": "Mary Shelley",
+            "answer2": "Bram Stoker",
+            "answer3": "Edgar Allan Poe",
+            "answer4": "H.G. Wells"
+        },
+        {
+            "statement": "Who wrote 'The Picture of Dorian Gray'?",
+            "category": "Literature",
+            "correctAnswer": "Oscar Wilde",
+            "answer2": "Charles Dickens",
+            "answer3": "Mark Twain",
+            "answer4": "Henry James"
+        },
+        {
+            "statement": "Who is the author of 'Brave New World'?",
+            "category": "Literature",
+            "correctAnswer": "Aldous Huxley",
+            "answer2": "George Orwell",
+            "answer3": "Ray Bradbury",
+            "answer4": "Margaret Atwood"
+        },
+        {
+            "statement": "Who wrote 'The Lord of the Rings'?",
+            "category": "Literature",
+            "correctAnswer": "J.R.R. Tolkien",
+            "answer2": "C.S. Lewis",
+            "answer3": "J.K. Rowling",
+            "answer4": "George R.R. Martin"
+        },
+        {
+            "statement": "Who wrote 'Catch-22'?",
+            "category": "Literature",
+            "correctAnswer": "Joseph Heller",
+            "answer2": "Kurt Vonnegut",
+            "answer3": "Thomas Pynchon",
+            "answer4": "Norman Mailer"
+        },
+        {
+            "statement": "Who wrote 'Wuthering Heights'?",
+            "category": "Literature",
+            "correctAnswer": "Emily Bront\u00eb",
+            "answer2": "Charlotte Bront\u00eb",
+            "answer3": "Jane Austen",
+            "answer4": "Virginia Woolf"
+        },
+        {
+            "statement": "Who is the author of 'The Brothers Karamazov'?",
+            "category": "Literature",
+            "correctAnswer": "Fyodor Dostoevsky",
+            "answer2": "Leo Tolstoy",
+            "answer3": "Anton Chekhov",
+            "answer4": "Ivan Turgenev"
+        },
+        {
+            "statement": "Who wrote 'Moby-Dick'?",
+            "category": "Literature",
+            "correctAnswer": "Herman Melville",
+            "answer2": "Mark Twain",
+            "answer3": "Nathaniel Hawthorne",
+            "answer4": "Ralph Waldo Emerson"
+        },
+        {
+            "statement": "Who wrote 'The Divine Comedy'?",
+            "category": "Literature",
+            "correctAnswer": "Dante Alighieri",
+            "answer2": "Geoffrey Chaucer",
+            "answer3": "John Milton",
+            "answer4": "Homer"
+        },
+        {
+            "statement": "Who wrote 'A Tale of Two Cities'?",
+            "category": "Literature",
+            "correctAnswer": "Charles Dickens",
+            "answer2": "Jane Austen",
+            "answer3": "George Orwell",
+            "answer4": "Mark Twain"
+        },
+        {
+            "statement": "Who wrote 'The Catcher in the Rye'?",
+            "category": "Literature",
+            "correctAnswer": "J.D. Salinger",
+            "answer2": "F. Scott Fitzgerald",
+            "answer3": "John Steinbeck",
+            "answer4": "William Faulkner"
+        },
+        {
+            "statement": "Who wrote 'The Scarlet Letter'?",
+            "category": "Literature",
+            "correctAnswer": "Nathaniel Hawthorne",
+            "answer2": "Mark Twain",
+            "answer3": "Harriet Beecher Stowe",
+            "answer4": "Ralph Waldo Emerson"
+        },
+        {
+            "statement": "Who wrote 'The Shining'?",
+            "category": "Literature",
+            "correctAnswer": "Stephen King",
+            "answer2": "Edgar Allan Poe",
+            "answer3": "George Orwell",
+            "answer4": "H.P. Lovecraft"
+        },
+        {
+            "statement": "Who wrote 'Beloved'?",
+            "category": "Literature",
+            "correctAnswer": "Toni Morrison",
+            "answer2": "Maya Angelou",
+            "answer3": "Zora Neale Hurston",
+            "answer4": "Alice Walker"
+        },
+        {
+            "statement": "Who wrote 'Slaughterhouse-Five'?",
+            "category": "Literature",
+            "correctAnswer": "Kurt Vonnegut",
+            "answer2": "Joseph Heller",
+            "answer3": "Thomas Pynchon",
+            "answer4": "Ken Kesey"
+        },
+        {
+            "statement": "Who wrote 'The Road'?",
+            "category": "Literature",
+            "correctAnswer": "Cormac McCarthy",
+            "answer2": "Don DeLillo",
+            "answer3": "Jonathan Franzen",
+            "answer4": "Philip Roth"
+        },
+        {
+            "statement": "Who wrote 'The Old Man and the Sea'?",
+            "category": "Literature",
+            "correctAnswer": "Ernest Hemingway",
+            "answer2": "Mark Twain",
+            "answer3": "John Steinbeck",
+            "answer4": "F. Scott Fitzgerald"
+        },
+        {
+            "statement": "Who wrote 'Anna Karenina'?",
+            "category": "Literature",
+            "correctAnswer": "Leo Tolstoy",
+            "answer2": "Fyodor Dostoevsky",
+            "answer3": "Anton Chekhov",
+            "answer4": "Ivan Turgenev"
+        },
+        {
+            "statement": "Who wrote 'The Alchemist'?",
+            "category": "Literature",
+            "correctAnswer": "Paulo Coelho",
+            "answer2": "Gabriel Garc\u00eda M\u00e1rquez",
+            "answer3": "Isabel Allende",
+            "answer4": "Mario Vargas Llosa"
+        },
+        {
+            "statement": "Who wrote 'The Sun Also Rises'?",
+            "category": "Literature",
+            "correctAnswer": "Ernest Hemingway",
+            "answer2": "F. Scott Fitzgerald",
+            "answer3": "John Steinbeck",
+            "answer4": "William Faulkner"
+        },
+        {
+            "statement": "What is the powerhouse of the cell?",
+            "category": "Biology",
+            "correctAnswer": "Mitochondria",
+            "answer2": "Nucleus",
+            "answer3": "Endoplasmic Reticulum",
+            "answer4": "Golgi Apparatus"
+        },
+        {
+            "statement": "Which organ is responsible for pumping blood throughout the body?",
+            "category": "Biology",
+            "correctAnswer": "Heart",
+            "answer2": "Lungs",
+            "answer3": "Liver",
+            "answer4": "Kidneys"
+        },
+        {
+            "statement": "What is the main function of red blood cells?",
+            "category": "Biology",
+            "correctAnswer": "Transport oxygen",
+            "answer2": "Fight infections",
+            "answer3": "Produce hormones",
+            "answer4": "Transmit nerve impulses"
+        },
+        {
+            "statement": "What is the process by which plants make their own food?",
+            "category": "Biology",
+            "correctAnswer": "Photosynthesis",
+            "answer2": "Respiration",
+            "answer3": "Transpiration",
+            "answer4": "Fermentation"
+        },
+        {
+            "statement": "Which part of the cell controls cell activities?",
+            "category": "Biology",
+            "correctAnswer": "Nucleus",
+            "answer2": "Cytoplasm",
+            "answer3": "Mitochondria",
+            "answer4": "Ribosome"
+        },
+        {
+            "statement": "Which organ in the human body is responsible for digestion?",
+            "category": "Biology",
+            "correctAnswer": "Stomach",
+            "answer2": "Liver",
+            "answer3": "Heart",
+            "answer4": "    "
+        },
+        {
+            "statement": "What is the genetic material that carries information in living organisms?",
+            "category": "Biology",
+            "correctAnswer": "DNA",
+            "answer2": "RNA",
+            "answer3": "Proteins",
+            "answer4": "Carbohydrates"
+        },
+        {
+            "statement": "Which type of blood vessel carries blood away from the heart?",
+            "category": "Biology",
+            "correctAnswer": "Artery",
+            "answer2": "Vein",
+            "answer3": "Capillary",
+            "answer4": "Lymphatic vessel"
+        },
+        {
+            "statement": "What is the process by which cells divide to form two identical daughter cells?",
+            "category": "Biology",
+            "correctAnswer": "Mitosis",
+            "answer2": "Meiosis",
+            "answer3": "Fertilization",
+            "answer4": "Germination"
+        },
+        {
+            "statement": "Which system in the body is responsible for transporting oxygen and nutrients?",
+            "category": "Biology",
+            "correctAnswer": "Circulatory system",
+            "answer2": "Digestive system",
+            "answer3": "Nervous system",
+            "answer4": "Respiratory system"
+        },
+        {
+            "statement": "What is the main function of white blood cells?",
+            "category": "Biology",
+            "correctAnswer": "Fight infections",
+            "answer2": "Transport oxygen",
+            "answer3": "Regulate hormones",
+            "answer4": "Produce energy"
+        },
+        {
+            "statement": "Which structure in the plant cell is responsible for photosynthesis?",
+            "category": "Biology",
+            "correctAnswer": "Chloroplast",
+            "answer2": "Mitochondria",
+            "answer3": "Nucleus",
+            "answer4": "Ribosome"
+        },
+        {
+            "statement": "What is the primary function of the large intestine?",
+            "category": "Biology",
+            "correctAnswer": "Absorb water and salts",
+            "answer2": "Digest food",
+            "answer3": "Produce insulin",
+            "answer4": "Filter blood"
+        },
+        {
+            "statement": "Which molecule is used by cells for energy?",
+            "category": "Biology",
+            "correctAnswer": "ATP",
+            "answer2": "Glucose",
+            "answer3": "Oxygen",
+            "answer4": "Carbon dioxide"
+        },
+        {
+            "statement": "What is the term for the ability of an organism to maintain a stable internal environment?",
+            "category": "Biology",
+            "correctAnswer": "Homeostasis",
+            "answer2": "Metabolism",
+            "answer3": "Excretion",
+            "answer4": "Reproduction"
+        },
+        {
+            "statement": "Which organ system is responsible for controlling body functions through electrical impulses?",
+            "category": "Biology",
+            "correctAnswer": "Nervous system",
+            "answer2": "Endocrine system",
+            "answer3": "Circulatory system",
+            "answer4": "Respiratory system"
+        },
+        {
+            "statement": "What is the fluid that circulates in the lymphatic system?",
+            "category": "Biology",
+            "correctAnswer": "Lymph",
+            "answer2": "Blood",
+            "answer3": "Cerebrospinal fluid",
+            "answer4": "Interstitial fluid"
+        },
+        {
+            "statement": "Which organ system helps the body fight infections and diseases?",
+            "category": "Biology",
+            "correctAnswer": "Immune system",
+            "answer2": "Circulatory system",
+            "answer3": "Respiratory system",
+            "answer4": "Digestive system"
+        },
+        {
+            "statement": "What is the basic unit of structure and function in living organisms?",
+            "category": "Biology",
+            "correctAnswer": "Cell",
+            "answer2": "Tissue",
+            "answer3": "Organ",
+            "answer4": "Organ system"
+        },
+        {
+            "statement": "What part of the brain controls balance and coordination?",
+            "category": "Biology",
+            "correctAnswer": "Cerebellum",
+            "answer2": "Cerebrum",
+            "answer3": "Medulla oblongata",
+            "answer4": "Thalamus"
+        },
+        {
+            "statement": "What is the process by which organisms produce offspring?",
+            "category": "Biology",
+            "correctAnswer": "Reproduction",
+            "answer2": "Metabolism",
+            "answer3": "Respiration",
+            "answer4": "Excretion"
+        },
+        {
+            "statement": "Which macromolecule is used by the body for growth and repair?",
+            "category": "Biology",
+            "correctAnswer": "Proteins",
+            "answer2": "Carbohydrates",
+            "answer3": "Fats",
+            "answer4": "Nucleic acids"
+        },
+        {
+            "statement": "Which type of muscle is responsible for involuntary movements?",
+            "category": "Biology",
+            "correctAnswer": "Smooth muscle",
+            "answer2": "Skeletal muscle",
+            "answer3": "Cardiac muscle",
+            "answer4": "Striated muscle"
+        },
+        {
+            "statement": "What is the process by which plants release water vapor through their leaves?",
+            "category": "Biology",
+            "correctAnswer": "Transpiration",
+            "answer2": "Photosynthesis",
+            "answer3": "Respiration",
+            "answer4": "Fermentation"
+        },
+        {
+            "statement": "Which sport is known as the 'king of sports'?",
+            "category": "Sports",
+            "correctAnswer": "Soccer",
+            "answer2": "Basketball",
+            "answer3": "Tennis",
+            "answer4": "Baseball"
+        },
+        {
+            "statement": "Who holds the record for most Olympic gold medals in swimming?",
+            "category": "Sports",
+            "correctAnswer": "Michael Phelps",
+            "answer2": "Ian Thorpe",
+            "answer3": "Caeleb Dressel",
+            "answer4": "Mark Spitz"
+        },
+        {
+            "statement": "What is the maximum score in a single frame of ten-pin bowling?",
+            "category": "Sports",
+            "correctAnswer": "30",
+            "answer2": "10",
+            "answer3": "20",
+            "answer4": "50"
+        },
+        {
+            "statement": "Who won the 2022 FIFA World Cup?",
+            "category": "Sports",
+            "correctAnswer": "Argentina",
+            "answer2": "France",
+            "answer3": "Brazil",
+            "answer4": "Germany"
+        },
+        {
+            "statement": "In tennis, what is the term for a score of 40-40?",
+            "category": "Sports",
+            "correctAnswer": "Deuce",
+            "answer2": "Advantage",
+            "answer3": "Match point",
+            "answer4": "Set point"
+        },
+        {
+            "statement": "Which country has won the most World Series titles in Major League Baseball?",
+            "category": "Sports",
+            "correctAnswer": "New York Yankees",
+            "answer2": "Boston Red Sox",
+            "answer3": "Chicago Cubs",
+            "answer4": "Los Angeles Dodgers"
+        },
+        {
+            "statement": "Who is considered the greatest basketball player of all time?",
+            "category": "Sports",
+            "correctAnswer": "Michael Jordan",
+            "answer2": "LeBron James",
+            "answer3": "Kobe Bryant",
+            "answer4": "Magic Johnson"
+        },
+        {
+            "statement": "In which sport would you perform a 'slam dunk'?",
+            "category": "Sports",
+            "correctAnswer": "Basketball",
+            "answer2": "Football",
+            "answer3": "Volleyball",
+            "answer4": "Baseball"
+        },
+        {
+            "statement": "Which sport is known for its four major Grand Slam tournaments?",
+            "category": "Sports",
+            "correctAnswer": "Tennis",
+            "answer2": "Golf",
+            "answer3": "Boxing",
+            "answer4": "Rugby"
+        },
+        {
+            "statement": "Which athlete is known as 'The Greatest of All Time' (GOAT) in boxing?",
+            "category": "Sports",
+            "correctAnswer": "Muhammad Ali",
+            "answer2": "Mike Tyson",
+            "answer3": "Floyd Mayweather",
+            "answer4": "Sugar Ray Leonard"
+        },
+        {
+            "statement": "How many players are there on a standard soccer team?",
+            "category": "Sports",
+            "correctAnswer": "11",
+            "answer2": "9",
+            "answer3": "13",
+            "answer4": "7"
+        },
+        {
+            "statement": "Which country hosted the 2016 Summer Olympics?",
+            "category": "Sports",
+            "correctAnswer": "Brazil",
+            "answer2": "China",
+            "answer3": "Japan",
+            "answer4": "United States"
+        },
+        {
+            "statement": "What is the distance of a marathon race?",
+            "category": "Sports",
+            "correctAnswer": "42.195 kilometers",
+            "answer2": "26 miles",
+            "answer3": "30 kilometers",
+            "answer4": "21 kilometers"
+        },
+        {
+            "statement": "Who is the all-time top scorer in the history of the NBA?",
+            "category": "Sports",
+            "correctAnswer": "LeBron James",
+            "answer2": "Kareem Abdul-Jabbar",
+            "answer3": "Kobe Bryant",
+            "answer4": "Michael Jordan"
+        },
+        {
+            "statement": "Which country won the first Rugby World Cup in 1987?",
+            "category": "Sports",
+            "correctAnswer": "New Zealand",
+            "answer2": "South Africa",
+            "answer3": "Australia",
+            "answer4": "England"
+        },
+        {
+            "statement": "Who holds the record for the most goals scored in a World Cup?",
+            "category": "Sports",
+            "correctAnswer": "Marta",
+            "answer2": "Pele",
+            "answer3": "Cristiano Ronaldo",
+            "answer4": "Miroslav Klose"
+        },
+        {
+            "statement": "In which sport do athletes compete for a 'Green Jacket'?",
+            "category": "Sports",
+            "correctAnswer": "Golf",
+            "answer2": "Tennis",
+            "answer3": "Cycling",
+            "answer4": "Boxing"
+        },
+        {
+            "statement": "Which city hosted the 2020 Summer Olympics?",
+            "category": "Sports",
+            "correctAnswer": "Tokyo",
+            "answer2": "Paris",
+            "answer3": "London",
+            "answer4": "Beijing"
+        },
+        {
+            "statement": "Which soccer player is known as 'The Atomic Flea'?",
+            "category": "Sports",
+            "correctAnswer": "Lionel Messi",
+            "answer2": "Cristiano Ronaldo",
+            "answer3": "Neymar",
+            "answer4": "Kylian Mbapp\u00e9"
+        },
+        {
+            "statement": "Which sport is known for the term 'hat trick'?",
+            "category": "Sports",
+            "correctAnswer": "Soccer",
+            "answer2": "Basketball",
+            "answer3": "Cricket",
+            "answer4": "Ice Hockey"
+        },
+        {
+            "statement": "Which country has the most gold medals in the history of the Summer Olympics?",
+            "category": "Sports",
+            "correctAnswer": "United States",
+            "answer2": "China",
+            "answer3": "Germany",
+            "answer4": "Russia"
+        },
+        {
+            "statement": "In which sport would you perform a 'double axel'?",
+            "category": "Sports",
+            "correctAnswer": "Figure skating",
+            "answer2": "Gymnastics",
+            "answer3": "Snowboarding",
+            "answer4": "Diving"
+        },
+        {
+            "statement": "What is the standard duration of a soccer match?",
+            "category": "Sports",
+            "correctAnswer": "90 minutes",
+            "answer2": "60 minutes",
+            "answer3": "120 minutes",
+            "answer4": "80 minutes"
+        },
+        {
+            "statement": "Which basketball player is known for his 'Sky Hook' shot?",
+            "category": "Sports",
+            "correctAnswer": "Kareem Abdul-Jabbar",
+            "answer2": "Michael Jordan",
+            "answer3": "Shaquille O'Neal",
+            "answer4": "LeBron James"
+        },
+        {
+            "statement": "Which team won the 2020 NBA Championship?",
+            "category": "Sports",
+            "correctAnswer": "Los Angeles Lakers",
+            "answer2": "Miami Heat",
+            "answer3": "Golden State Warriors",
+            "answer4": "Toronto Raptors"
+        },
+        {
+            "statement": "What is the maximum score in a game of snooker?",
+            "category": "Sports",
+            "correctAnswer": "147",
+            "answer2": "150",
+            "answer3": "100",
+            "answer4": "120"
+        },
+        {
+            "statement": "Which team won the 2019 ICC Cricket World Cup?",
+            "category": "Sports",
+            "correctAnswer": "England",
+            "answer2": "India",
+            "answer3": "Australia",
+            "answer4": "New Zealand"
+        },
+        {
+            "statement": "What is the primary objective in rugby?",
+            "category": "Sports",
+            "correctAnswer": "Score tries",
+            "answer2": "Score goals",
+            "answer3": "Complete laps",
+            "answer4": "Catch passes"
+        },
+        {
+            "statement": "What is the cube root of 216?",
+            "category": "Math",
+            "correctAnswer": "6",
+            "answer2": "16",
+            "answer3": "4",
+            "answer4": "14"
+        }
     ]
-  }
+}

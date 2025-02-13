@@ -59,4 +59,13 @@ public class UserServices {
             return null;
         return userRepositories.create(authData);
     }
+
+    /*
+    * This method logs out the currently online user.
+    * 
+    * @return the user that was logged out, or empty if no user was online.
+    */
+    public Optional<UserDAO> logout() {
+        return userRepositories.logout();
+    }
 }

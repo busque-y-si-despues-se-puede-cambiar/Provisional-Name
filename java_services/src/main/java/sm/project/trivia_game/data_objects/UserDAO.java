@@ -16,6 +16,7 @@ public class UserDAO {
     public String password;
     public int score;
     public boolean online;
+    public boolean admin;
 
     public UserDAO(int id, String username, String password, int score) {
         this.id = id;
@@ -23,5 +24,6 @@ public class UserDAO {
         this.password = password;
         this.score = score;
         this.online = false;
+        this.admin = false;
     }
 }

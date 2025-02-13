@@ -50,6 +50,9 @@ public class UserRepositories {
                     jsonObject.getString("password"),
                     jsonObject.getInt("score")
                 );
+                if (jsonObject.has("admin")) {
+                    user.admin = jsonObject.getBoolean("admin");
+                }
                 users.add(user);
             }
         } catch (FileNotFoundException fnfEx) {
@@ -73,6 +76,7 @@ public class UserRepositories {
                 jsonObject.put("password", user.password);
                 jsonObject.put("score", user.score);
                 jsonObject.put("online", user.online);
+                jsonObject.put("admin", user.admin);
                 jsonArray.put(jsonObject);
             }
 
@@ -150,5 +154,21 @@ public class UserRepositories {
         this.users.add(newUser);
         saveData();
         return Optional.of(newUser);
+    }
+
+    /*
+     * This method logs out the currently online user.
+     * 
+     * @return the user that was logged out, or empty if no user was online.
+     */
+    public Optional<UserDAO> logout() {
+        for (UserDAO user : this.users) {
+            if (user.online) {
+                user.online = false;
+                saveData();
+                return Optional.of(user);
+            }
+        }
+        return Optional.empty();
     }
 }
