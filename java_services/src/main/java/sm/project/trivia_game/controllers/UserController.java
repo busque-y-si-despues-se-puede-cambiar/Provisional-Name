@@ -59,8 +59,8 @@ public class UserController {
      * @return the user created.
      */
     @PostMapping("/create")
-    public Optional<UserDAO> create(@RequestBody UserDAO user) {
-        return userServices.create(user);
+    public Optional<UserDAO> create(@RequestBody AuthDTO authData) {
+        return userServices.create(authData);
     }
 
 }

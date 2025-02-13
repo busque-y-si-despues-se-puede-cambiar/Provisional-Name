@@ -17,6 +17,7 @@ class UserDAO(BaseModel):
     """
     This class defines the data structure related to users.
     """
+    id: int
     username: str
     password: str
     score: int

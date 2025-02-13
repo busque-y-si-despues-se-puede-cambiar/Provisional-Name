@@ -54,9 +54,9 @@ public class UserServices {
      * 
      * @return the user created.
      */
-    public Optional<UserDAO> create(UserDAO user) {
-        if (user.username == null || user.password == null)
+    public Optional<UserDAO> create(AuthDTO authData) {
+        if (authData.getUsername() == null || authData.getPassword() == null)
             return null;
-        return userRepositories.create(user);
+        return userRepositories.create(authData);
     }
 }

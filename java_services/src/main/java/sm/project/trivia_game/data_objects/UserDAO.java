@@ -15,11 +15,13 @@ public class UserDAO {
     public String username;
     public String password;
     public int score;
+    public boolean online;
 
     public UserDAO(int id, String username, String password, int score) {
         this.id = id;
         this.username = username;
         this.password = password;
         this.score = score;
+        this.online = false;
     }
 }
