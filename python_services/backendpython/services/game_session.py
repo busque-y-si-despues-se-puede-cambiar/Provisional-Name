@@ -30,7 +30,7 @@ class GameSession:
             ValueError: If the user is not found or not online.
         """
         self.user_repo = UserRepository()
-        self.question_repo = QuestionRepository()
+        self.question_repo = QuestionRepository(self.user_repo)
         self.user = self._get_online_user(username)
         self.score = 0
         self.lives = 3
@@ -68,7 +68,7 @@ class GameSession:
         while self.lives > 0:
             question = random.choice(self.question_repo.get_questions())
 
-            # Mezclar respuestas
+            # Mix answers and shuffle options
             options = [question.correctAnswer, question.answer2, question.answer3, question.answer4]
             random.shuffle(options)
 
